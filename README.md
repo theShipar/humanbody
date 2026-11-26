@@ -1,8 +1,14 @@
-# Human Atlas
+# humanbody
 
 An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.
 
-**[Explore the live demo](https://human-atlas-seven.vercel.app)**
+**[Explore the live demo](https://humanbody.vercel.app)**
+
+## Clinical study pilot
+
+The local app now includes Learn, Practice, and My Review alongside the original explorer. The upper-limb library contains 40 provisional cards, eight guided lessons, eight cases, and 60 questions. Use **Reviewer preview** in development to inspect drafts. No medical sign-off has been supplied: production includes approved content only and currently holds the curriculum behind the review gate.
+
+See [the pilot guide](docs/CLINICAL_PILOT.md) for progress backups, validation, publication, and the remaining review milestones, and [the proposed inventory](docs/CONTENT_INVENTORY.md) for exact coverage.
 
 ## Explore
 

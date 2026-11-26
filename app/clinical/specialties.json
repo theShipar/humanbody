@@ -1,0 +1,164 @@
+[
+  {
+    "id": "cardiology",
+    "title": "Cardiology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "dermatology",
+    "title": "Dermatology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "endocrinology",
+    "title": "Endocrinology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "gastroenterology",
+    "title": "Gastroenterology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "neurology",
+    "title": "Neurology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "oncology",
+    "title": "Oncology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "nephrology",
+    "title": "Nephrology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "pulmonology",
+    "title": "Pulmonology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "psychiatry",
+    "title": "Psychiatry",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "rheumatology",
+    "title": "Rheumatology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "allergy-immunology",
+    "title": "Allergy & immunology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "hematology",
+    "title": "Hematology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "infectious-disease",
+    "title": "Infectious disease",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "orthopedics",
+    "title": "Orthopedics",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "general-surgery",
+    "title": "General surgery",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "neurosurgery",
+    "title": "Neurosurgery",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "cardiothoracic-surgery",
+    "title": "Cardiothoracic surgery",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "plastic-surgery",
+    "title": "Plastic surgery",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "vascular-surgery",
+    "title": "Vascular surgery",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "urology",
+    "title": "Urology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "obstetrics-gynecology",
+    "title": "Obstetrics & gynecology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "ophthalmology",
+    "title": "Ophthalmology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "ent",
+    "title": "ENT",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "pathology",
+    "title": "Pathology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "radiology",
+    "title": "Radiology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "anesthesiology",
+    "title": "Anesthesiology",
+    "domain": "medical",
+    "targetCount": 10
+  },
+  {
+    "id": "dentistry",
+    "title": "Dentistry",
+    "domain": "dental",
+    "targetCount": 10
+  }
+]

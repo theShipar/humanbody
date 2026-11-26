@@ -1,5 +1,5 @@
 {
-  "name": "anatomy-studio",
+  "name": "humanbody",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -7,12 +7,21 @@
   },
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 3016",
-    "build": "vite build",
-    "build:vercel": "vite build",
-    "check": "tsc --noEmit"
+    "build": "npm run validate:study && npm run test:clinical && vite build",
+    "build:vercel": "npm run build",
+    "check": "tsc --noEmit",
+    "test:study": "node --experimental-strip-types --experimental-specifier-resolution=node scripts/test-study.mjs",
+    "validate:study": "node --experimental-strip-types scripts/validate-study.mjs",
+    "content:publish": "node --experimental-strip-types scripts/validate-study.mjs --publish",
+    "test:clinical": "node --experimental-strip-types scripts/test-clinical.mjs",
+    "validate:launch": "node --experimental-strip-types scripts/test-clinical.mjs --release",
+    "clinical:publish": "node --experimental-strip-types scripts/publish-clinical.mjs",
+    "test:workspace": "node --experimental-strip-types scripts/test-workspace.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/urbanist": "^5.3.0",
     "@shadcn/react": "0.3.0",
     "@types/three": "^0.159.0",
     "class-variance-authority": "0.7.1",

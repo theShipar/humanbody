@@ -1,0 +1,459 @@
+[
+  {
+    "id": "condition-shoulder-dislocation",
+    "title": "Shoulder dislocation",
+    "region": "shoulder",
+    "cardIds": [
+      "humerus",
+      "scapula",
+      "deltoid"
+    ],
+    "caseIds": [],
+    "overview": "The humeral head loses its normal relationship with the glenoid.",
+    "mechanism": "Anterior dislocation commonly follows forced abduction and external rotation.",
+    "findings": "Pain, altered shoulder contour and restricted movement.",
+    "complications": "Recurrent instability and injury to adjacent nerves or vessels.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated.",
+    "annotations": [
+      {
+        "cardId": "humerus",
+        "label": "Related anatomy \u00b7 humerus"
+      },
+      {
+        "cardId": "scapula",
+        "label": "Related anatomy \u00b7 scapula"
+      },
+      {
+        "cardId": "deltoid",
+        "label": "Related anatomy \u00b7 deltoid"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate shoulder dislocation to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/bodypart/shoulder/shoulder-trauma-fractures-and-dislocations/"
+    ]
+  },
+  {
+    "id": "condition-rotator-cuff-tear",
+    "title": "Rotator cuff tear",
+    "region": "shoulder",
+    "cardIds": [
+      "supraspinatus",
+      "infraspinatus",
+      "subscapularis",
+      "teres-minor"
+    ],
+    "caseIds": [],
+    "overview": "A tear affects one or more tendons stabilizing the humeral head.",
+    "mechanism": "Degeneration or an acute injury can disrupt the cuff.",
+    "findings": "Shoulder pain and weakness with elevation or rotation.",
+    "complications": "Persistent weakness and reduced shoulder function.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated.",
+    "annotations": [
+      {
+        "cardId": "supraspinatus",
+        "label": "Related anatomy \u00b7 supraspinatus"
+      },
+      {
+        "cardId": "infraspinatus",
+        "label": "Related anatomy \u00b7 infraspinatus"
+      },
+      {
+        "cardId": "subscapularis",
+        "label": "Related anatomy \u00b7 subscapularis"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate rotator cuff tear to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/bodypart/shoulder/rotator-cuff-tears/"
+    ]
+  },
+  {
+    "id": "condition-proximal-humeral-fracture",
+    "title": "Proximal humeral fracture",
+    "region": "shoulder",
+    "cardIds": [
+      "humerus",
+      "deltoid"
+    ],
+    "caseIds": [],
+    "overview": "A fracture involves the upper end of the humerus.",
+    "mechanism": "A fall or direct impact can injure the proximal humerus.",
+    "findings": "Pain, swelling, bruising and difficulty moving the shoulder.",
+    "complications": "Stiffness and possible neurovascular injury.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated.",
+    "annotations": [
+      {
+        "cardId": "humerus",
+        "label": "Related anatomy \u00b7 humerus"
+      },
+      {
+        "cardId": "deltoid",
+        "label": "Related anatomy \u00b7 deltoid"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate proximal humeral fracture to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/bodypart/shoulder/shoulder-trauma-fractures-and-dislocations/"
+    ]
+  },
+  {
+    "id": "condition-humeral-shaft-fracture",
+    "title": "Humeral shaft fracture",
+    "region": "arm",
+    "cardIds": [
+      "humerus",
+      "triceps"
+    ],
+    "caseIds": [],
+    "overview": "A fracture interrupts the shaft of the humerus.",
+    "mechanism": "A fall, direct blow or twisting force can break the shaft.",
+    "findings": "Arm pain, swelling and possible deformity.",
+    "complications": "The radial nerve is vulnerable near the posterior humeral shaft.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated.",
+    "annotations": [
+      {
+        "cardId": "humerus",
+        "label": "Related anatomy \u00b7 humerus"
+      },
+      {
+        "cardId": "triceps",
+        "label": "Related anatomy \u00b7 triceps"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate humeral shaft fracture to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://posna.org/physician-education/study-guide/humeral-shaft-fractures"
+    ]
+  },
+  {
+    "id": "condition-supracondylar-fracture",
+    "title": "Supracondylar fracture",
+    "region": "arm",
+    "cardIds": [
+      "humerus",
+      "brachial-artery"
+    ],
+    "caseIds": [],
+    "overview": "A fracture occurs above the distal humeral condyles, commonly in children.",
+    "mechanism": "Often follows a fall onto an outstretched hand.",
+    "findings": "Elbow pain, swelling and restricted movement.",
+    "complications": "Brachial artery or nerve injury can threaten limb function.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated. This adult model does not represent pediatric growth plates.",
+    "annotations": [
+      {
+        "cardId": "humerus",
+        "label": "Related anatomy \u00b7 humerus"
+      },
+      {
+        "cardId": "brachial-artery",
+        "label": "Related anatomy \u00b7 brachial-artery"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate supracondylar fracture to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/bodypart/elbow/elbow-fractures-in-children/"
+    ]
+  },
+  {
+    "id": "condition-cubital-tunnel",
+    "title": "Cubital tunnel syndrome",
+    "region": "arm",
+    "cardIds": [
+      "humerus",
+      "ulna",
+      "fcu"
+    ],
+    "caseIds": [],
+    "overview": "The ulnar nerve is compressed around the elbow.",
+    "mechanism": "Prolonged elbow flexion or local pressure may aggravate compression.",
+    "findings": "Tingling in the little finger and ulnar half of the ring finger; grip may weaken.",
+    "complications": "Longstanding compression can cause intrinsic hand muscle wasting.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated.",
+    "annotations": [
+      {
+        "cardId": "humerus",
+        "label": "Related anatomy \u00b7 humerus"
+      },
+      {
+        "cardId": "ulna",
+        "label": "Related anatomy \u00b7 ulna"
+      },
+      {
+        "cardId": "fcu",
+        "label": "Related anatomy \u00b7 fcu"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate cubital tunnel syndrome to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/bodypart/elbow/ulnar-nerve-entrapment-at-the-elbow/"
+    ]
+  },
+  {
+    "id": "condition-lateral-epicondylitis",
+    "title": "Lateral epicondylitis",
+    "region": "forearm",
+    "cardIds": [
+      "humerus",
+      "ecrb"
+    ],
+    "caseIds": [],
+    "overview": "A painful disorder of the common extensor tendon origin.",
+    "mechanism": "Repetitive loading particularly involves extensor carpi radialis brevis.",
+    "findings": "Lateral elbow tenderness and pain with gripping or resisted wrist extension.",
+    "complications": "Persistent pain can limit work and activity.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated.",
+    "annotations": [
+      {
+        "cardId": "humerus",
+        "label": "Related anatomy \u00b7 humerus"
+      },
+      {
+        "cardId": "ecrb",
+        "label": "Related anatomy \u00b7 ecrb"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate lateral epicondylitis to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/bodypart/elbow/tennis-elbow-lateral-epicondylitis/"
+    ]
+  },
+  {
+    "id": "condition-carpal-tunnel-syndrome",
+    "title": "Carpal tunnel syndrome",
+    "region": "hand",
+    "cardIds": [
+      "retinaculum",
+      "fds",
+      "fdp",
+      "fpl",
+      "apb"
+    ],
+    "caseIds": [
+      "carpal-tunnel"
+    ],
+    "overview": "The median nerve is compressed within the carpal tunnel.",
+    "mechanism": "Increased pressure within the constrained tunnel affects the nerve.",
+    "findings": "Numbness or tingling in the thumb, index, middle and radial ring finger; thenar weakness may develop.",
+    "complications": "Persistent compression can produce sensory loss and thenar wasting.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated.",
+    "annotations": [
+      {
+        "cardId": "retinaculum",
+        "label": "Related anatomy \u00b7 retinaculum"
+      },
+      {
+        "cardId": "fds",
+        "label": "Related anatomy \u00b7 fds"
+      },
+      {
+        "cardId": "fdp",
+        "label": "Related anatomy \u00b7 fdp"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate carpal tunnel syndrome to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/bodypart/hand-wrist/carpal-tunnel-syndrome/"
+    ]
+  },
+  {
+    "id": "condition-distal-radius-fracture",
+    "title": "Distal radius fracture",
+    "region": "hand",
+    "cardIds": [
+      "radius",
+      "ulna"
+    ],
+    "caseIds": [],
+    "overview": "A fracture involves the radius near the wrist.",
+    "mechanism": "Often follows a fall onto an outstretched hand.",
+    "findings": "Wrist pain, swelling and possible deformity.",
+    "complications": "Stiffness and acute median nerve compression can occur.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated.",
+    "annotations": [
+      {
+        "cardId": "radius",
+        "label": "Related anatomy \u00b7 radius"
+      },
+      {
+        "cardId": "ulna",
+        "label": "Related anatomy \u00b7 ulna"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate distal radius fracture to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/bodypart/hand-wrist/distal-radius-fractures-broken-wrist/"
+    ]
+  },
+  {
+    "id": "condition-scaphoid-fracture",
+    "title": "Scaphoid fracture",
+    "region": "hand",
+    "cardIds": [
+      "scaphoid"
+    ],
+    "caseIds": [],
+    "overview": "A fracture affects a carpal bone linking the two rows of the wrist.",
+    "mechanism": "Often follows a fall onto an extended wrist.",
+    "findings": "Radial wrist pain and tenderness near the anatomical snuffbox.",
+    "complications": "Poor healing, nonunion and avascular necrosis are important concerns.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated.",
+    "annotations": [
+      {
+        "cardId": "scaphoid",
+        "label": "Related anatomy \u00b7 scaphoid"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate scaphoid fracture to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/bodypart/hand-wrist/scaphoid-fracture-of-the-wrist/"
+    ]
+  },
+  {
+    "id": "condition-de-quervain",
+    "title": "De Quervain tenosynovitis",
+    "region": "hand",
+    "cardIds": [
+      "apl",
+      "radius"
+    ],
+    "caseIds": [],
+    "overview": "A painful tendon-sheath disorder affects abductor pollicis longus and extensor pollicis brevis at the radial wrist.",
+    "mechanism": "Tendon loading and sheath thickening restrict comfortable tendon movement.",
+    "findings": "Radial wrist pain with thumb movement or grasping.",
+    "complications": "Persistent pain can impair hand function.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated. Extensor pollicis brevis is not included in this linked card inventory.",
+    "annotations": [
+      {
+        "cardId": "apl",
+        "label": "Related anatomy \u00b7 apl"
+      },
+      {
+        "cardId": "radius",
+        "label": "Related anatomy \u00b7 radius"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate de quervain tenosynovitis to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/diseases--conditions/de-quervains-tendinosis/"
+    ]
+  },
+  {
+    "id": "condition-compartment-syndrome",
+    "title": "Compartment syndrome",
+    "region": "forearm",
+    "cardIds": [
+      "fds",
+      "fdp",
+      "fpl"
+    ],
+    "caseIds": [],
+    "overview": "Raised pressure in a muscle compartment impairs tissue perfusion.",
+    "mechanism": "Bleeding or swelling after injury can raise pressure within closed fascia.",
+    "findings": "Severe pain, swelling and pain on passive stretch are concerning features.",
+    "complications": "Acute compartment syndrome is an emergency; muscle and nerve damage may become irreversible.",
+    "limitation": "Whole reference structures are highlighted; injury sites, tendon lesions, nerve geometry and pathological changes are not simulated.",
+    "annotations": [
+      {
+        "cardId": "fds",
+        "label": "Related anatomy \u00b7 fds"
+      },
+      {
+        "cardId": "fdp",
+        "label": "Related anatomy \u00b7 fdp"
+      },
+      {
+        "cardId": "fpl",
+        "label": "Related anatomy \u00b7 fpl"
+      }
+    ],
+    "version": "1.0.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Relate compartment syndrome to the highlighted anatomy.",
+      "Explain the anatomical basis of typical findings and complications."
+    ],
+    "references": [
+      "https://www.nhs.uk/conditions/compartment-syndrome/"
+    ]
+  }
+]

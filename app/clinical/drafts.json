@@ -1,0 +1,325 @@
+[
+  {
+    "id": "fracture-explanation",
+    "title": "Understanding a broken bone",
+    "specialtyIds": ["orthopedics"],
+    "domain": "medical",
+    "region": "Upper limb",
+    "kind": "condition",
+    "synonyms": ["broken bone", "fracture", "fixation"],
+    "overview": "A fracture interrupts the continuity of a bone. This example uses the right humerus as reference anatomy.",
+    "limitation": "Illustrative stages, not a prediction or treatment recommendation. The 3D model shows normal reference anatomy; injury and treatment geometry are not represented.",
+    "conceptIds": ["FMA23130"],
+    "visualMethod": "hybrid",
+    "tracks": [
+      {
+        "id": "course",
+        "title": "Injury",
+        "kind": "course",
+        "branch": "Injury",
+        "stages": [
+          {
+            "id": "course-0",
+            "title": "Reference bone",
+            "patientText": "Locate the bone before discussing the injury.",
+            "clinicalText": "Locate the bone before discussing the injury.",
+            "conceptIds": ["FMA23130"],
+            "assetIds": ["schematic-bone"],
+            "visualLabel": "Reference bone \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "bone",
+              "phase": "reference"
+            }
+          },
+          {
+            "id": "course-1",
+            "title": "Fracture",
+            "patientText": "The bone has broken. The intact reference model identifies its location; it does not depict a fracture.",
+            "clinicalText": "The bone has broken. The intact reference model identifies its location; it does not depict a fracture.",
+            "conceptIds": ["FMA23130"],
+            "assetIds": ["schematic-bone"],
+            "visualLabel": "Fracture \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "bone",
+              "phase": "fracture"
+            }
+          }
+        ]
+      },
+      {
+        "id": "support",
+        "title": "Support without surgery",
+        "kind": "treatment",
+        "branch": "Nonoperative example",
+        "stages": [
+          {
+            "id": "support-0",
+            "title": "Assessment",
+            "patientText": "The clinician assesses the injury before choosing treatment.",
+            "clinicalText": "The clinician assesses the injury before choosing treatment.",
+            "conceptIds": ["FMA23130"],
+            "assetIds": ["schematic-bone"],
+            "visualLabel": "Assessment \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "bone",
+              "phase": "fracture"
+            }
+          },
+          {
+            "id": "support-1",
+            "title": "Support",
+            "patientText": "Some fractures are held in position with a cast or other support while healing.",
+            "clinicalText": "Some fractures are held in position with a cast or other support while healing.",
+            "conceptIds": ["FMA23130"],
+            "assetIds": ["schematic-bone"],
+            "visualLabel": "Support \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "bone",
+              "phase": "support"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fixation",
+        "title": "Surgical fixation",
+        "kind": "treatment",
+        "branch": "Operative example",
+        "stages": [
+          {
+            "id": "fixation-0",
+            "title": "Alignment",
+            "patientText": "Fragments may be repositioned when surgery is appropriate.",
+            "clinicalText": "Fragments may be repositioned when surgery is appropriate.",
+            "conceptIds": ["FMA23130"],
+            "assetIds": ["schematic-bone"],
+            "visualLabel": "Alignment \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "bone",
+              "phase": "fracture"
+            }
+          },
+          {
+            "id": "fixation-1",
+            "title": "Fixation",
+            "patientText": "Plates, screws or rods may hold fragments in position. No device is shown in this reference model.",
+            "clinicalText": "Plates, screws or rods may hold fragments in position. No device is shown in this reference model.",
+            "conceptIds": ["FMA23130"],
+            "assetIds": ["schematic-bone"],
+            "visualLabel": "Fixation \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "bone",
+              "phase": "fixation"
+            }
+          }
+        ]
+      },
+      {
+        "id": "recovery",
+        "title": "Recovery",
+        "kind": "recovery",
+        "branch": "Illustrative recovery",
+        "stages": [
+          {
+            "id": "recovery-0",
+            "title": "Healing",
+            "patientText": "Healing time varies with the injury and the person.",
+            "clinicalText": "Healing time varies with the injury and the person.",
+            "conceptIds": ["FMA23130"],
+            "assetIds": ["schematic-bone"],
+            "visualLabel": "Healing \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "bone",
+              "phase": "healing"
+            }
+          },
+          {
+            "id": "recovery-1",
+            "title": "Function",
+            "patientText": "Rehabilitation may help restore movement and strength. Less pain does not necessarily mean the bone is ready for normal loading.",
+            "clinicalText": "Rehabilitation may help restore movement and strength. Less pain does not necessarily mean the bone is ready for normal loading.",
+            "conceptIds": ["FMA23130"],
+            "assetIds": ["schematic-bone"],
+            "visualLabel": "Function \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "bone",
+              "phase": "healing"
+            }
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "bone-check",
+        "prompt": "Does less pain always mean a fracture is ready for normal loading?",
+        "options": ["Yes", "No"],
+        "answer": "No",
+        "explanation": "Pain can settle before the bone can tolerate normal stresses.",
+        "trackId": "recovery",
+        "stageId": "recovery-1"
+      }
+    ],
+    "version": "0.1.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Explain the relationship between the reference anatomy and the scenario.",
+      "Recognize that stages are illustrative and outcomes vary."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/diseases--conditions/broken-bones/fractures-broken-bones/"
+    ]
+  },
+  {
+    "id": "tooth-decay-explanation",
+    "title": "Understanding tooth decay",
+    "specialtyIds": ["dentistry"],
+    "domain": "dental",
+    "region": "Mouth",
+    "kind": "condition",
+    "synonyms": ["cavity", "caries", "filling"],
+    "overview": "Acids produced by bacteria can damage the tooth surface. This example identifies a lower molar.",
+    "limitation": "Illustrative stages, not a prediction or treatment recommendation. The 3D model shows normal reference anatomy; injury and treatment geometry are not represented.",
+    "conceptIds": ["FMA55704"],
+    "visualMethod": "hybrid",
+    "tracks": [
+      {
+        "id": "course",
+        "title": "Changes over time",
+        "kind": "course",
+        "branch": "Possible progression",
+        "stages": [
+          {
+            "id": "course-0",
+            "title": "Surface",
+            "patientText": "Enamel is the outer protective surface of a tooth.",
+            "clinicalText": "Enamel is the outer protective surface of a tooth.",
+            "conceptIds": ["FMA55704"],
+            "assetIds": ["schematic-tooth"],
+            "visualLabel": "Surface \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "tooth",
+              "phase": "reference"
+            }
+          },
+          {
+            "id": "course-1",
+            "title": "Mineral loss",
+            "patientText": "Repeated acid exposure can remove minerals from enamel.",
+            "clinicalText": "Repeated acid exposure can remove minerals from enamel.",
+            "conceptIds": ["FMA55704"],
+            "assetIds": ["schematic-tooth"],
+            "visualLabel": "Mineral loss \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "tooth",
+              "phase": "mineral-loss"
+            }
+          },
+          {
+            "id": "course-2",
+            "title": "Cavity",
+            "patientText": "Further loss can form a cavity. Progression is not inevitable.",
+            "clinicalText": "Further loss can form a cavity. Progression is not inevitable.",
+            "conceptIds": ["FMA55704"],
+            "assetIds": ["schematic-tooth"],
+            "visualLabel": "Cavity \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "tooth",
+              "phase": "cavity"
+            }
+          }
+        ]
+      },
+      {
+        "id": "early-care",
+        "title": "Early care",
+        "kind": "treatment",
+        "branch": "Before a cavity",
+        "stages": [
+          {
+            "id": "early-care-0",
+            "title": "Assessment",
+            "patientText": "A dentist assesses the tooth.",
+            "clinicalText": "A dentist assesses the tooth.",
+            "conceptIds": ["FMA55704"],
+            "assetIds": ["schematic-tooth"],
+            "visualLabel": "Assessment \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "tooth",
+              "phase": "mineral-loss"
+            }
+          },
+          {
+            "id": "early-care-1",
+            "title": "Early intervention",
+            "patientText": "Early decay may be stopped or reversed with appropriate fluoride care before a cavity forms.",
+            "clinicalText": "Early decay may be stopped or reversed with appropriate fluoride care before a cavity forms.",
+            "conceptIds": ["FMA55704"],
+            "assetIds": ["schematic-tooth"],
+            "visualLabel": "Early intervention \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "tooth",
+              "phase": "early-care"
+            }
+          }
+        ]
+      },
+      {
+        "id": "restoration",
+        "title": "Restoration",
+        "kind": "treatment",
+        "branch": "Cavity treatment",
+        "stages": [
+          {
+            "id": "restoration-0",
+            "title": "Cavity",
+            "patientText": "A cavity represents lost tooth structure.",
+            "clinicalText": "A cavity represents lost tooth structure.",
+            "conceptIds": ["FMA55704"],
+            "assetIds": ["schematic-tooth"],
+            "visualLabel": "Cavity \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "tooth",
+              "phase": "cavity"
+            }
+          },
+          {
+            "id": "restoration-1",
+            "title": "Filling",
+            "patientText": "A dentist may remove decayed tissue and restore the space with filling material. This model does not show a filling.",
+            "clinicalText": "A dentist may remove decayed tissue and restore the space with filling material. This model does not show a filling.",
+            "conceptIds": ["FMA55704"],
+            "assetIds": ["schematic-tooth"],
+            "visualLabel": "Filling \u00b7 normal reference anatomy",
+            "diagram": {
+              "kind": "tooth",
+              "phase": "filling"
+            }
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "tooth-check",
+        "prompt": "Is early mineral loss guaranteed to become a cavity?",
+        "options": ["Yes", "No"],
+        "answer": "No",
+        "explanation": "Early decay can sometimes be stopped or reversed before a cavity forms.",
+        "trackId": "early-care",
+        "stageId": "early-care-1"
+      }
+    ],
+    "version": "0.1.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Explain the relationship between the reference anatomy and the scenario.",
+      "Recognize that stages are illustrative and outcomes vary."
+    ],
+    "references": ["https://www.nidcr.nih.gov/health-info/tooth-decay"]
+  }
+]

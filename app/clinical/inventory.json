@@ -1,0 +1,1811 @@
+[
+  {
+    "specialtyId": "cardiology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "cardiology-01",
+        "objective": "Explain atrial fibrillation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Atrial fibrillation"
+      },
+      {
+        "id": "cardiology-02",
+        "objective": "Explain coronary artery disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Coronary artery disease"
+      },
+      {
+        "id": "cardiology-03",
+        "objective": "Explain heart failure in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Heart failure"
+      },
+      {
+        "id": "cardiology-04",
+        "objective": "Explain hypertension in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hypertension"
+      },
+      {
+        "id": "cardiology-05",
+        "objective": "Explain aortic stenosis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Aortic stenosis"
+      },
+      {
+        "id": "cardiology-06",
+        "objective": "Explain mitral regurgitation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Mitral regurgitation"
+      },
+      {
+        "id": "cardiology-07",
+        "objective": "Explain pericarditis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pericarditis"
+      },
+      {
+        "id": "cardiology-08",
+        "objective": "Explain cardiomyopathy in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cardiomyopathy"
+      },
+      {
+        "id": "cardiology-09",
+        "objective": "Explain pacemaker explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pacemaker explanation"
+      },
+      {
+        "id": "cardiology-10",
+        "objective": "Explain coronary stent explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Coronary stent explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "dermatology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "dermatology-01",
+        "objective": "Explain atopic eczema in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Atopic eczema"
+      },
+      {
+        "id": "dermatology-02",
+        "objective": "Explain psoriasis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Psoriasis"
+      },
+      {
+        "id": "dermatology-03",
+        "objective": "Explain acne in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Acne"
+      },
+      {
+        "id": "dermatology-04",
+        "objective": "Explain contact dermatitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Contact dermatitis"
+      },
+      {
+        "id": "dermatology-05",
+        "objective": "Explain rosacea in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Rosacea"
+      },
+      {
+        "id": "dermatology-06",
+        "objective": "Explain melanoma in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Melanoma"
+      },
+      {
+        "id": "dermatology-07",
+        "objective": "Explain basal cell carcinoma in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Basal cell carcinoma"
+      },
+      {
+        "id": "dermatology-08",
+        "objective": "Explain urticaria in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Urticaria"
+      },
+      {
+        "id": "dermatology-09",
+        "objective": "Explain alopecia areata in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Alopecia areata"
+      },
+      {
+        "id": "dermatology-10",
+        "objective": "Explain skin biopsy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Skin biopsy explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "endocrinology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "endocrinology-01",
+        "objective": "Explain type 1 diabetes in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Type 1 diabetes"
+      },
+      {
+        "id": "endocrinology-02",
+        "objective": "Explain type 2 diabetes in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Type 2 diabetes"
+      },
+      {
+        "id": "endocrinology-03",
+        "objective": "Explain hypothyroidism in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hypothyroidism"
+      },
+      {
+        "id": "endocrinology-04",
+        "objective": "Explain hyperthyroidism in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hyperthyroidism"
+      },
+      {
+        "id": "endocrinology-05",
+        "objective": "Explain thyroid nodules in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Thyroid nodules"
+      },
+      {
+        "id": "endocrinology-06",
+        "objective": "Explain adrenal insufficiency in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Adrenal insufficiency"
+      },
+      {
+        "id": "endocrinology-07",
+        "objective": "Explain cushing syndrome in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cushing syndrome"
+      },
+      {
+        "id": "endocrinology-08",
+        "objective": "Explain osteoporosis and hormones in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Osteoporosis and hormones"
+      },
+      {
+        "id": "endocrinology-09",
+        "objective": "Explain pituitary adenoma in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pituitary adenoma"
+      },
+      {
+        "id": "endocrinology-10",
+        "objective": "Explain insulin action explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Insulin action explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "gastroenterology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "gastroenterology-01",
+        "objective": "Explain gastroesophageal reflux in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Gastroesophageal reflux"
+      },
+      {
+        "id": "gastroenterology-02",
+        "objective": "Explain peptic ulcer disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Peptic ulcer disease"
+      },
+      {
+        "id": "gastroenterology-03",
+        "objective": "Explain crohn disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Crohn disease"
+      },
+      {
+        "id": "gastroenterology-04",
+        "objective": "Explain ulcerative colitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Ulcerative colitis"
+      },
+      {
+        "id": "gastroenterology-05",
+        "objective": "Explain irritable bowel syndrome in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Irritable bowel syndrome"
+      },
+      {
+        "id": "gastroenterology-06",
+        "objective": "Explain celiac disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Celiac disease"
+      },
+      {
+        "id": "gastroenterology-07",
+        "objective": "Explain cirrhosis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cirrhosis"
+      },
+      {
+        "id": "gastroenterology-08",
+        "objective": "Explain gallstones in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Gallstones"
+      },
+      {
+        "id": "gastroenterology-09",
+        "objective": "Explain pancreatitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pancreatitis"
+      },
+      {
+        "id": "gastroenterology-10",
+        "objective": "Explain colonoscopy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Colonoscopy explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "neurology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "neurology-01",
+        "objective": "Explain ischemic stroke in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Ischemic stroke"
+      },
+      {
+        "id": "neurology-02",
+        "objective": "Explain migraine in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Migraine"
+      },
+      {
+        "id": "neurology-03",
+        "objective": "Explain epilepsy in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Epilepsy"
+      },
+      {
+        "id": "neurology-04",
+        "objective": "Explain parkinson disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Parkinson disease"
+      },
+      {
+        "id": "neurology-05",
+        "objective": "Explain multiple sclerosis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Multiple sclerosis"
+      },
+      {
+        "id": "neurology-06",
+        "objective": "Explain peripheral neuropathy in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Peripheral neuropathy"
+      },
+      {
+        "id": "neurology-07",
+        "objective": "Explain bell palsy in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Bell palsy"
+      },
+      {
+        "id": "neurology-08",
+        "objective": "Explain dementia explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Dementia explanation"
+      },
+      {
+        "id": "neurology-09",
+        "objective": "Explain motor neuron disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Motor neuron disease"
+      },
+      {
+        "id": "neurology-10",
+        "objective": "Explain lumbar puncture explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Lumbar puncture explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "oncology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "oncology-01",
+        "objective": "Explain breast cancer overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Breast cancer overview"
+      },
+      {
+        "id": "oncology-02",
+        "objective": "Explain lung cancer overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Lung cancer overview"
+      },
+      {
+        "id": "oncology-03",
+        "objective": "Explain colorectal cancer overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Colorectal cancer overview"
+      },
+      {
+        "id": "oncology-04",
+        "objective": "Explain prostate cancer overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Prostate cancer overview"
+      },
+      {
+        "id": "oncology-05",
+        "objective": "Explain cancer staging explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cancer staging explanation"
+      },
+      {
+        "id": "oncology-06",
+        "objective": "Explain metastasis explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Metastasis explanation"
+      },
+      {
+        "id": "oncology-07",
+        "objective": "Explain chemotherapy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Chemotherapy explanation"
+      },
+      {
+        "id": "oncology-08",
+        "objective": "Explain radiotherapy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Radiotherapy explanation"
+      },
+      {
+        "id": "oncology-09",
+        "objective": "Explain immunotherapy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Immunotherapy explanation"
+      },
+      {
+        "id": "oncology-10",
+        "objective": "Explain cancer surveillance explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cancer surveillance explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "nephrology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "nephrology-01",
+        "objective": "Explain chronic kidney disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Chronic kidney disease"
+      },
+      {
+        "id": "nephrology-02",
+        "objective": "Explain acute kidney injury in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Acute kidney injury"
+      },
+      {
+        "id": "nephrology-03",
+        "objective": "Explain glomerulonephritis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Glomerulonephritis"
+      },
+      {
+        "id": "nephrology-04",
+        "objective": "Explain nephrotic syndrome in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Nephrotic syndrome"
+      },
+      {
+        "id": "nephrology-05",
+        "objective": "Explain polycystic kidney disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Polycystic kidney disease"
+      },
+      {
+        "id": "nephrology-06",
+        "objective": "Explain diabetic kidney disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Diabetic kidney disease"
+      },
+      {
+        "id": "nephrology-07",
+        "objective": "Explain dialysis explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Dialysis explanation"
+      },
+      {
+        "id": "nephrology-08",
+        "objective": "Explain kidney transplant explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Kidney transplant explanation"
+      },
+      {
+        "id": "nephrology-09",
+        "objective": "Explain proteinuria explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Proteinuria explanation"
+      },
+      {
+        "id": "nephrology-10",
+        "objective": "Explain kidney biopsy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Kidney biopsy explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "pulmonology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "pulmonology-01",
+        "objective": "Explain asthma in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Asthma"
+      },
+      {
+        "id": "pulmonology-02",
+        "objective": "Explain chronic obstructive pulmonary disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Chronic obstructive pulmonary disease"
+      },
+      {
+        "id": "pulmonology-03",
+        "objective": "Explain pneumonia in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pneumonia"
+      },
+      {
+        "id": "pulmonology-04",
+        "objective": "Explain pulmonary embolism in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pulmonary embolism"
+      },
+      {
+        "id": "pulmonology-05",
+        "objective": "Explain pulmonary fibrosis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pulmonary fibrosis"
+      },
+      {
+        "id": "pulmonology-06",
+        "objective": "Explain pleural effusion in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pleural effusion"
+      },
+      {
+        "id": "pulmonology-07",
+        "objective": "Explain pneumothorax in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pneumothorax"
+      },
+      {
+        "id": "pulmonology-08",
+        "objective": "Explain sleep apnea in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Sleep apnea"
+      },
+      {
+        "id": "pulmonology-09",
+        "objective": "Explain bronchiectasis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Bronchiectasis"
+      },
+      {
+        "id": "pulmonology-10",
+        "objective": "Explain bronchoscopy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Bronchoscopy explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "psychiatry",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "psychiatry-01",
+        "objective": "Explain depression in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Depression"
+      },
+      {
+        "id": "psychiatry-02",
+        "objective": "Explain generalized anxiety in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Generalized anxiety"
+      },
+      {
+        "id": "psychiatry-03",
+        "objective": "Explain panic disorder in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Panic disorder"
+      },
+      {
+        "id": "psychiatry-04",
+        "objective": "Explain bipolar disorder in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Bipolar disorder"
+      },
+      {
+        "id": "psychiatry-05",
+        "objective": "Explain schizophrenia in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Schizophrenia"
+      },
+      {
+        "id": "psychiatry-06",
+        "objective": "Explain obsessive compulsive disorder in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Obsessive compulsive disorder"
+      },
+      {
+        "id": "psychiatry-07",
+        "objective": "Explain post-traumatic stress disorder in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Post-traumatic stress disorder"
+      },
+      {
+        "id": "psychiatry-08",
+        "objective": "Explain eating disorders overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Eating disorders overview"
+      },
+      {
+        "id": "psychiatry-09",
+        "objective": "Explain psychotherapy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Psychotherapy explanation"
+      },
+      {
+        "id": "psychiatry-10",
+        "objective": "Explain psychiatric medication discussion in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Psychiatric medication discussion"
+      }
+    ]
+  },
+  {
+    "specialtyId": "rheumatology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "rheumatology-01",
+        "objective": "Explain rheumatoid arthritis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Rheumatoid arthritis"
+      },
+      {
+        "id": "rheumatology-02",
+        "objective": "Explain osteoarthritis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Osteoarthritis"
+      },
+      {
+        "id": "rheumatology-03",
+        "objective": "Explain gout in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Gout"
+      },
+      {
+        "id": "rheumatology-04",
+        "objective": "Explain lupus in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Lupus"
+      },
+      {
+        "id": "rheumatology-05",
+        "objective": "Explain psoriatic arthritis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Psoriatic arthritis"
+      },
+      {
+        "id": "rheumatology-06",
+        "objective": "Explain axial spondyloarthritis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Axial spondyloarthritis"
+      },
+      {
+        "id": "rheumatology-07",
+        "objective": "Explain systemic sclerosis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Systemic sclerosis"
+      },
+      {
+        "id": "rheumatology-08",
+        "objective": "Explain sjogren syndrome in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Sjogren syndrome"
+      },
+      {
+        "id": "rheumatology-09",
+        "objective": "Explain vasculitis overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Vasculitis overview"
+      },
+      {
+        "id": "rheumatology-10",
+        "objective": "Explain joint injection explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Joint injection explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "allergy-immunology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "allergy-immunology-01",
+        "objective": "Explain allergic rhinitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Allergic rhinitis"
+      },
+      {
+        "id": "allergy-immunology-02",
+        "objective": "Explain food allergy in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Food allergy"
+      },
+      {
+        "id": "allergy-immunology-03",
+        "objective": "Explain anaphylaxis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Anaphylaxis"
+      },
+      {
+        "id": "allergy-immunology-04",
+        "objective": "Explain drug allergy in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Drug allergy"
+      },
+      {
+        "id": "allergy-immunology-05",
+        "objective": "Explain allergic asthma in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Allergic asthma"
+      },
+      {
+        "id": "allergy-immunology-06",
+        "objective": "Explain chronic urticaria in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Chronic urticaria"
+      },
+      {
+        "id": "allergy-immunology-07",
+        "objective": "Explain contact allergy in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Contact allergy"
+      },
+      {
+        "id": "allergy-immunology-08",
+        "objective": "Explain primary immunodeficiency overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Primary immunodeficiency overview"
+      },
+      {
+        "id": "allergy-immunology-09",
+        "objective": "Explain allergy testing explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Allergy testing explanation"
+      },
+      {
+        "id": "allergy-immunology-10",
+        "objective": "Explain allergen immunotherapy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Allergen immunotherapy explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "hematology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "hematology-01",
+        "objective": "Explain iron deficiency anemia in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Iron deficiency anemia"
+      },
+      {
+        "id": "hematology-02",
+        "objective": "Explain vitamin b12 deficiency anemia in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Vitamin B12 deficiency anemia"
+      },
+      {
+        "id": "hematology-03",
+        "objective": "Explain sickle cell disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Sickle cell disease"
+      },
+      {
+        "id": "hematology-04",
+        "objective": "Explain thalassemia in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Thalassemia"
+      },
+      {
+        "id": "hematology-05",
+        "objective": "Explain hemophilia in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hemophilia"
+      },
+      {
+        "id": "hematology-06",
+        "objective": "Explain immune thrombocytopenia in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Immune thrombocytopenia"
+      },
+      {
+        "id": "hematology-07",
+        "objective": "Explain deep vein thrombosis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Deep vein thrombosis"
+      },
+      {
+        "id": "hematology-08",
+        "objective": "Explain leukemia overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Leukemia overview"
+      },
+      {
+        "id": "hematology-09",
+        "objective": "Explain lymphoma overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Lymphoma overview"
+      },
+      {
+        "id": "hematology-10",
+        "objective": "Explain blood transfusion explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Blood transfusion explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "infectious-disease",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "infectious-disease-01",
+        "objective": "Explain tuberculosis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Tuberculosis"
+      },
+      {
+        "id": "infectious-disease-02",
+        "objective": "Explain hiv overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "HIV overview"
+      },
+      {
+        "id": "infectious-disease-03",
+        "objective": "Explain sepsis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Sepsis"
+      },
+      {
+        "id": "infectious-disease-04",
+        "objective": "Explain endocarditis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Endocarditis"
+      },
+      {
+        "id": "infectious-disease-05",
+        "objective": "Explain osteomyelitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Osteomyelitis"
+      },
+      {
+        "id": "infectious-disease-06",
+        "objective": "Explain cellulitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cellulitis"
+      },
+      {
+        "id": "infectious-disease-07",
+        "objective": "Explain meningitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Meningitis"
+      },
+      {
+        "id": "infectious-disease-08",
+        "objective": "Explain hepatitis b in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hepatitis B"
+      },
+      {
+        "id": "infectious-disease-09",
+        "objective": "Explain hepatitis c in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hepatitis C"
+      },
+      {
+        "id": "infectious-disease-10",
+        "objective": "Explain antimicrobial resistance explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Antimicrobial resistance explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "orthopedics",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "orthopedics-01",
+        "objective": "Explain understanding a broken bone in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Understanding a broken bone"
+      },
+      {
+        "id": "orthopedics-02",
+        "objective": "Explain hip fracture in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hip fracture"
+      },
+      {
+        "id": "orthopedics-03",
+        "objective": "Explain distal radius fracture in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Distal radius fracture"
+      },
+      {
+        "id": "orthopedics-04",
+        "objective": "Explain rotator cuff tear in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Rotator cuff tear"
+      },
+      {
+        "id": "orthopedics-05",
+        "objective": "Explain anterior cruciate ligament injury in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Anterior cruciate ligament injury"
+      },
+      {
+        "id": "orthopedics-06",
+        "objective": "Explain osteoarthritis of the knee in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Osteoarthritis of the knee"
+      },
+      {
+        "id": "orthopedics-07",
+        "objective": "Explain shoulder dislocation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Shoulder dislocation"
+      },
+      {
+        "id": "orthopedics-08",
+        "objective": "Explain fracture fixation explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Fracture fixation explanation"
+      },
+      {
+        "id": "orthopedics-09",
+        "objective": "Explain hip replacement explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hip replacement explanation"
+      },
+      {
+        "id": "orthopedics-10",
+        "objective": "Explain carpal tunnel syndrome in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Carpal tunnel syndrome"
+      }
+    ]
+  },
+  {
+    "specialtyId": "general-surgery",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "general-surgery-01",
+        "objective": "Explain appendicitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Appendicitis"
+      },
+      {
+        "id": "general-surgery-02",
+        "objective": "Explain inguinal hernia in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Inguinal hernia"
+      },
+      {
+        "id": "general-surgery-03",
+        "objective": "Explain gallbladder surgery explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Gallbladder surgery explanation"
+      },
+      {
+        "id": "general-surgery-04",
+        "objective": "Explain bowel obstruction in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Bowel obstruction"
+      },
+      {
+        "id": "general-surgery-05",
+        "objective": "Explain diverticulitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Diverticulitis"
+      },
+      {
+        "id": "general-surgery-06",
+        "objective": "Explain hemorrhoids in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hemorrhoids"
+      },
+      {
+        "id": "general-surgery-07",
+        "objective": "Explain abdominal wall hernia in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Abdominal wall hernia"
+      },
+      {
+        "id": "general-surgery-08",
+        "objective": "Explain bowel resection explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Bowel resection explanation"
+      },
+      {
+        "id": "general-surgery-09",
+        "objective": "Explain stoma explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Stoma explanation"
+      },
+      {
+        "id": "general-surgery-10",
+        "objective": "Explain wound healing explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Wound healing explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "neurosurgery",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "neurosurgery-01",
+        "objective": "Explain brain aneurysm in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Brain aneurysm"
+      },
+      {
+        "id": "neurosurgery-02",
+        "objective": "Explain brain tumor surgery explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Brain tumor surgery explanation"
+      },
+      {
+        "id": "neurosurgery-03",
+        "objective": "Explain hydrocephalus in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hydrocephalus"
+      },
+      {
+        "id": "neurosurgery-04",
+        "objective": "Explain lumbar disc herniation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Lumbar disc herniation"
+      },
+      {
+        "id": "neurosurgery-05",
+        "objective": "Explain spinal stenosis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Spinal stenosis"
+      },
+      {
+        "id": "neurosurgery-06",
+        "objective": "Explain spinal cord compression in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Spinal cord compression"
+      },
+      {
+        "id": "neurosurgery-07",
+        "objective": "Explain subdural hematoma in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Subdural hematoma"
+      },
+      {
+        "id": "neurosurgery-08",
+        "objective": "Explain craniotomy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Craniotomy explanation"
+      },
+      {
+        "id": "neurosurgery-09",
+        "objective": "Explain spinal fusion explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Spinal fusion explanation"
+      },
+      {
+        "id": "neurosurgery-10",
+        "objective": "Explain shunt explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Shunt explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "cardiothoracic-surgery",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "cardiothoracic-surgery-01",
+        "objective": "Explain coronary bypass explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Coronary bypass explanation"
+      },
+      {
+        "id": "cardiothoracic-surgery-02",
+        "objective": "Explain heart valve replacement explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Heart valve replacement explanation"
+      },
+      {
+        "id": "cardiothoracic-surgery-03",
+        "objective": "Explain aortic aneurysm repair explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Aortic aneurysm repair explanation"
+      },
+      {
+        "id": "cardiothoracic-surgery-04",
+        "objective": "Explain lung resection explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Lung resection explanation"
+      },
+      {
+        "id": "cardiothoracic-surgery-05",
+        "objective": "Explain thoracic aortic dissection in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Thoracic aortic dissection"
+      },
+      {
+        "id": "cardiothoracic-surgery-06",
+        "objective": "Explain chest drain explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Chest drain explanation"
+      },
+      {
+        "id": "cardiothoracic-surgery-07",
+        "objective": "Explain congenital heart surgery overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Congenital heart surgery overview"
+      },
+      {
+        "id": "cardiothoracic-surgery-08",
+        "objective": "Explain heart transplant explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Heart transplant explanation"
+      },
+      {
+        "id": "cardiothoracic-surgery-09",
+        "objective": "Explain lung transplant explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Lung transplant explanation"
+      },
+      {
+        "id": "cardiothoracic-surgery-10",
+        "objective": "Explain mediastinal mass overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Mediastinal mass overview"
+      }
+    ]
+  },
+  {
+    "specialtyId": "plastic-surgery",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "plastic-surgery-01",
+        "objective": "Explain burn reconstruction in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Burn reconstruction"
+      },
+      {
+        "id": "plastic-surgery-02",
+        "objective": "Explain skin graft explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Skin graft explanation"
+      },
+      {
+        "id": "plastic-surgery-03",
+        "objective": "Explain local flap explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Local flap explanation"
+      },
+      {
+        "id": "plastic-surgery-04",
+        "objective": "Explain breast reconstruction in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Breast reconstruction"
+      },
+      {
+        "id": "plastic-surgery-05",
+        "objective": "Explain cleft lip and palate overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cleft lip and palate overview"
+      },
+      {
+        "id": "plastic-surgery-06",
+        "objective": "Explain scar revision explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Scar revision explanation"
+      },
+      {
+        "id": "plastic-surgery-07",
+        "objective": "Explain tendon repair explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Tendon repair explanation"
+      },
+      {
+        "id": "plastic-surgery-08",
+        "objective": "Explain pressure injury reconstruction in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pressure injury reconstruction"
+      },
+      {
+        "id": "plastic-surgery-09",
+        "objective": "Explain nerve repair explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Nerve repair explanation"
+      },
+      {
+        "id": "plastic-surgery-10",
+        "objective": "Explain reconstructive microsurgery overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Reconstructive microsurgery overview"
+      }
+    ]
+  },
+  {
+    "specialtyId": "vascular-surgery",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "vascular-surgery-01",
+        "objective": "Explain peripheral artery disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Peripheral artery disease"
+      },
+      {
+        "id": "vascular-surgery-02",
+        "objective": "Explain carotid artery disease in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Carotid artery disease"
+      },
+      {
+        "id": "vascular-surgery-03",
+        "objective": "Explain abdominal aortic aneurysm in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Abdominal aortic aneurysm"
+      },
+      {
+        "id": "vascular-surgery-04",
+        "objective": "Explain varicose veins in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Varicose veins"
+      },
+      {
+        "id": "vascular-surgery-05",
+        "objective": "Explain venous ulcers in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Venous ulcers"
+      },
+      {
+        "id": "vascular-surgery-06",
+        "objective": "Explain acute limb ischemia in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Acute limb ischemia"
+      },
+      {
+        "id": "vascular-surgery-07",
+        "objective": "Explain vascular bypass explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Vascular bypass explanation"
+      },
+      {
+        "id": "vascular-surgery-08",
+        "objective": "Explain angioplasty explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Angioplasty explanation"
+      },
+      {
+        "id": "vascular-surgery-09",
+        "objective": "Explain dialysis access explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Dialysis access explanation"
+      },
+      {
+        "id": "vascular-surgery-10",
+        "objective": "Explain venous thrombosis explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Venous thrombosis explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "urology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "urology-01",
+        "objective": "Explain kidney stones in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Kidney stones"
+      },
+      {
+        "id": "urology-02",
+        "objective": "Explain benign prostatic enlargement in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Benign prostatic enlargement"
+      },
+      {
+        "id": "urology-03",
+        "objective": "Explain urinary incontinence in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Urinary incontinence"
+      },
+      {
+        "id": "urology-04",
+        "objective": "Explain bladder cancer overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Bladder cancer overview"
+      },
+      {
+        "id": "urology-05",
+        "objective": "Explain prostate cancer surgery explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Prostate cancer surgery explanation"
+      },
+      {
+        "id": "urology-06",
+        "objective": "Explain urinary obstruction in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Urinary obstruction"
+      },
+      {
+        "id": "urology-07",
+        "objective": "Explain testicular torsion in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Testicular torsion"
+      },
+      {
+        "id": "urology-08",
+        "objective": "Explain ureteric stent explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Ureteric stent explanation"
+      },
+      {
+        "id": "urology-09",
+        "objective": "Explain cystoscopy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cystoscopy explanation"
+      },
+      {
+        "id": "urology-10",
+        "objective": "Explain urinary catheter explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Urinary catheter explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "obstetrics-gynecology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "obstetrics-gynecology-01",
+        "objective": "Explain endometriosis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Endometriosis"
+      },
+      {
+        "id": "obstetrics-gynecology-02",
+        "objective": "Explain uterine fibroids in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Uterine fibroids"
+      },
+      {
+        "id": "obstetrics-gynecology-03",
+        "objective": "Explain ovarian cysts in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Ovarian cysts"
+      },
+      {
+        "id": "obstetrics-gynecology-04",
+        "objective": "Explain polycystic ovary syndrome in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Polycystic ovary syndrome"
+      },
+      {
+        "id": "obstetrics-gynecology-05",
+        "objective": "Explain pelvic organ prolapse in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pelvic organ prolapse"
+      },
+      {
+        "id": "obstetrics-gynecology-06",
+        "objective": "Explain ectopic pregnancy in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Ectopic pregnancy"
+      },
+      {
+        "id": "obstetrics-gynecology-07",
+        "objective": "Explain normal pregnancy overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Normal pregnancy overview"
+      },
+      {
+        "id": "obstetrics-gynecology-08",
+        "objective": "Explain cesarean birth explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cesarean birth explanation"
+      },
+      {
+        "id": "obstetrics-gynecology-09",
+        "objective": "Explain cervical screening explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cervical screening explanation"
+      },
+      {
+        "id": "obstetrics-gynecology-10",
+        "objective": "Explain hysterectomy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hysterectomy explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "ophthalmology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "ophthalmology-01",
+        "objective": "Explain cataract in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cataract"
+      },
+      {
+        "id": "ophthalmology-02",
+        "objective": "Explain glaucoma in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Glaucoma"
+      },
+      {
+        "id": "ophthalmology-03",
+        "objective": "Explain macular degeneration in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Macular degeneration"
+      },
+      {
+        "id": "ophthalmology-04",
+        "objective": "Explain diabetic retinopathy in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Diabetic retinopathy"
+      },
+      {
+        "id": "ophthalmology-05",
+        "objective": "Explain retinal detachment in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Retinal detachment"
+      },
+      {
+        "id": "ophthalmology-06",
+        "objective": "Explain dry eye in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Dry eye"
+      },
+      {
+        "id": "ophthalmology-07",
+        "objective": "Explain refractive error in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Refractive error"
+      },
+      {
+        "id": "ophthalmology-08",
+        "objective": "Explain conjunctivitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Conjunctivitis"
+      },
+      {
+        "id": "ophthalmology-09",
+        "objective": "Explain cataract surgery explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cataract surgery explanation"
+      },
+      {
+        "id": "ophthalmology-10",
+        "objective": "Explain intravitreal injection explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Intravitreal injection explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "ent",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "ent-01",
+        "objective": "Explain otitis media in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Otitis media"
+      },
+      {
+        "id": "ent-02",
+        "objective": "Explain hearing loss in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Hearing loss"
+      },
+      {
+        "id": "ent-03",
+        "objective": "Explain chronic sinusitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Chronic sinusitis"
+      },
+      {
+        "id": "ent-04",
+        "objective": "Explain nasal polyps in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Nasal polyps"
+      },
+      {
+        "id": "ent-05",
+        "objective": "Explain tonsillitis in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Tonsillitis"
+      },
+      {
+        "id": "ent-06",
+        "objective": "Explain vertigo overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Vertigo overview"
+      },
+      {
+        "id": "ent-07",
+        "objective": "Explain vocal cord lesions in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Vocal cord lesions"
+      },
+      {
+        "id": "ent-08",
+        "objective": "Explain sleep-disordered breathing in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Sleep-disordered breathing"
+      },
+      {
+        "id": "ent-09",
+        "objective": "Explain tympanostomy tube explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Tympanostomy tube explanation"
+      },
+      {
+        "id": "ent-10",
+        "objective": "Explain cochlear implant explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cochlear implant explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "pathology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "pathology-01",
+        "objective": "Explain what a biopsy shows in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "What a biopsy shows"
+      },
+      {
+        "id": "pathology-02",
+        "objective": "Explain inflammation in tissue in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Inflammation in tissue"
+      },
+      {
+        "id": "pathology-03",
+        "objective": "Explain benign versus malignant growth in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Benign versus malignant growth"
+      },
+      {
+        "id": "pathology-04",
+        "objective": "Explain tumor grade explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Tumor grade explanation"
+      },
+      {
+        "id": "pathology-05",
+        "objective": "Explain surgical margins explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Surgical margins explanation"
+      },
+      {
+        "id": "pathology-06",
+        "objective": "Explain lymph node sampling in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Lymph node sampling"
+      },
+      {
+        "id": "pathology-07",
+        "objective": "Explain cytology explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Cytology explanation"
+      },
+      {
+        "id": "pathology-08",
+        "objective": "Explain immunohistochemistry explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Immunohistochemistry explanation"
+      },
+      {
+        "id": "pathology-09",
+        "objective": "Explain molecular testing explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Molecular testing explanation"
+      },
+      {
+        "id": "pathology-10",
+        "objective": "Explain pathology report explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Pathology report explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "radiology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "radiology-01",
+        "objective": "Explain x-ray explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "X-ray explanation"
+      },
+      {
+        "id": "radiology-02",
+        "objective": "Explain ct explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "CT explanation"
+      },
+      {
+        "id": "radiology-03",
+        "objective": "Explain mri explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "MRI explanation"
+      },
+      {
+        "id": "radiology-04",
+        "objective": "Explain ultrasound explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Ultrasound explanation"
+      },
+      {
+        "id": "radiology-05",
+        "objective": "Explain contrast media explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Contrast media explanation"
+      },
+      {
+        "id": "radiology-06",
+        "objective": "Explain image-guided biopsy explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Image-guided biopsy explanation"
+      },
+      {
+        "id": "radiology-07",
+        "objective": "Explain angiography explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Angiography explanation"
+      },
+      {
+        "id": "radiology-08",
+        "objective": "Explain mammography explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Mammography explanation"
+      },
+      {
+        "id": "radiology-09",
+        "objective": "Explain pet explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "PET explanation"
+      },
+      {
+        "id": "radiology-10",
+        "objective": "Explain radiation dose discussion in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Radiation dose discussion"
+      }
+    ]
+  },
+  {
+    "specialtyId": "anesthesiology",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "anesthesiology-01",
+        "objective": "Explain general anesthesia explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "General anesthesia explanation"
+      },
+      {
+        "id": "anesthesiology-02",
+        "objective": "Explain spinal anesthesia explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Spinal anesthesia explanation"
+      },
+      {
+        "id": "anesthesiology-03",
+        "objective": "Explain epidural explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Epidural explanation"
+      },
+      {
+        "id": "anesthesiology-04",
+        "objective": "Explain peripheral nerve block explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Peripheral nerve block explanation"
+      },
+      {
+        "id": "anesthesiology-05",
+        "objective": "Explain sedation explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Sedation explanation"
+      },
+      {
+        "id": "anesthesiology-06",
+        "objective": "Explain airway support explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Airway support explanation"
+      },
+      {
+        "id": "anesthesiology-07",
+        "objective": "Explain monitoring during anesthesia in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Monitoring during anesthesia"
+      },
+      {
+        "id": "anesthesiology-08",
+        "objective": "Explain postoperative pain relief in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Postoperative pain relief"
+      },
+      {
+        "id": "anesthesiology-09",
+        "objective": "Explain recovery room explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Recovery room explanation"
+      },
+      {
+        "id": "anesthesiology-10",
+        "objective": "Explain preoperative assessment explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Preoperative assessment explanation"
+      }
+    ]
+  },
+  {
+    "specialtyId": "dentistry",
+    "status": "awaiting-reviewer",
+    "reviewer": null,
+    "slots": [
+      {
+        "id": "dentistry-01",
+        "objective": "Explain understanding tooth decay in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Understanding tooth decay"
+      },
+      {
+        "id": "dentistry-02",
+        "objective": "Explain gum disease overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Gum disease overview"
+      },
+      {
+        "id": "dentistry-03",
+        "objective": "Explain tooth abscess overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Tooth abscess overview"
+      },
+      {
+        "id": "dentistry-04",
+        "objective": "Explain dental filling explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Dental filling explanation"
+      },
+      {
+        "id": "dentistry-05",
+        "objective": "Explain root canal explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Root canal explanation"
+      },
+      {
+        "id": "dentistry-06",
+        "objective": "Explain dental crown explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Dental crown explanation"
+      },
+      {
+        "id": "dentistry-07",
+        "objective": "Explain tooth extraction explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Tooth extraction explanation"
+      },
+      {
+        "id": "dentistry-08",
+        "objective": "Explain dental implant explanation in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Dental implant explanation"
+      },
+      {
+        "id": "dentistry-09",
+        "objective": "Explain orthodontic movement overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Orthodontic movement overview"
+      },
+      {
+        "id": "dentistry-10",
+        "objective": "Explain impacted wisdom tooth overview in patient-friendly language using reviewed visual aids.",
+        "status": "proposed-awaiting-inventory-approval",
+        "title": "Impacted wisdom tooth overview"
+      }
+    ]
+  }
+]

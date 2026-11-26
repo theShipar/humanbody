@@ -1,0 +1,3582 @@
+{
+  "cards": [
+    {
+      "id": "clavicle",
+      "title": "Clavicle",
+      "region": "shoulder",
+      "concepts": {
+        "right": [
+          "FMA13322"
+        ],
+        "left": [
+          "FMA13323"
+        ]
+      },
+      "fields": {
+        "Function": "Connects the shoulder girdle to the sternum.",
+        "Location": "Anterior shoulder girdle.",
+        "Relations": "Between sternum and scapula."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Clavicle and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle"
+      ]
+    },
+    {
+      "id": "scapula",
+      "title": "Scapula",
+      "region": "shoulder",
+      "concepts": {
+        "right": [
+          "FMA13395"
+        ],
+        "left": [
+          "FMA13396"
+        ]
+      },
+      "fields": {
+        "Function": "Provides the glenoid and shoulder muscle attachments.",
+        "Location": "Posterior shoulder girdle.",
+        "Relations": "Glenoid faces the humeral head."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Scapula and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle"
+      ]
+    },
+    {
+      "id": "deltoid",
+      "title": "Deltoid",
+      "region": "shoulder",
+      "concepts": {
+        "right": [
+          "FMA34680",
+          "FMA34682",
+          "FMA34684"
+        ],
+        "left": [
+          "FMA34681",
+          "FMA34683",
+          "FMA34685"
+        ]
+      },
+      "fields": {
+        "Function": "Middle fibers abduct the arm.",
+        "Location": "Superficial shoulder.",
+        "Attachments": "Clavicle, acromion and scapular spine to deltoid tuberosity.",
+        "Innervation": "Axillary nerve.",
+        "Clinical relevance": "Weak abduction may prompt assessment of axillary nerve function; it is not specific to a single lesion."
+      },
+      "relationships": [
+        {
+          "label": "Attaches to humerus",
+          "targetIds": [
+            "humerus"
+          ]
+        }
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Deltoid and explain its regional relationships."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK537056/"
+      ]
+    },
+    {
+      "id": "supraspinatus",
+      "title": "Supraspinatus",
+      "region": "shoulder",
+      "concepts": {
+        "right": [
+          "FMA32544"
+        ],
+        "left": [
+          "FMA32545"
+        ]
+      },
+      "fields": {
+        "Function": "Initiates abduction and supports joint stability.",
+        "Location": "Above the scapular spine.",
+        "Attachments": "Supraspinous fossa to greater tubercle.",
+        "Innervation": "Suprascapular nerve."
+      },
+      "relationships": [
+        {
+          "label": "Connects scapula and humerus",
+          "targetIds": [
+            "scapula",
+            "humerus"
+          ]
+        }
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Supraspinatus and explain its regional relationships."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK536933/"
+      ]
+    },
+    {
+      "id": "infraspinatus",
+      "title": "Infraspinatus",
+      "region": "shoulder",
+      "concepts": {
+        "right": [
+          "FMA32547"
+        ],
+        "left": [
+          "FMA32548"
+        ]
+      },
+      "fields": {
+        "Function": "Laterally rotates the arm.",
+        "Location": "Below the scapular spine.",
+        "Innervation": "Suprascapular nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Infraspinatus and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK536933/"
+      ]
+    },
+    {
+      "id": "teres-minor",
+      "title": "Teres minor",
+      "region": "shoulder",
+      "concepts": {
+        "right": [
+          "FMA32553"
+        ],
+        "left": [
+          "FMA32554"
+        ]
+      },
+      "fields": {
+        "Function": "Laterally rotates the arm.",
+        "Innervation": "Axillary nerve.",
+        "Relations": "A rotator cuff component; distinguish it from teres major."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Teres minor and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK493212/"
+      ]
+    },
+    {
+      "id": "subscapularis",
+      "title": "Subscapularis",
+      "region": "shoulder",
+      "concepts": {
+        "right": [
+          "FMA13414"
+        ],
+        "left": [
+          "FMA13415"
+        ]
+      },
+      "fields": {
+        "Function": "Medially rotates the arm.",
+        "Location": "Anterior surface of the scapula.",
+        "Innervation": "Upper and lower subscapular nerves."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Subscapularis and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK536933/"
+      ]
+    },
+    {
+      "id": "teres-major",
+      "title": "Teres major",
+      "region": "shoulder",
+      "concepts": {
+        "right": [
+          "FMA32551"
+        ],
+        "left": [
+          "FMA32552"
+        ]
+      },
+      "fields": {
+        "Function": "Adducts and medially rotates the arm.",
+        "Innervation": "Lower subscapular nerve.",
+        "Relations": "Inferior to teres minor; not a rotator cuff component."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Teres major and explain its regional relationships."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK536933/"
+      ]
+    },
+    {
+      "id": "humerus",
+      "title": "Humerus",
+      "region": "arm",
+      "concepts": {
+        "right": [
+          "FMA23130"
+        ],
+        "left": [
+          "FMA23131"
+        ]
+      },
+      "fields": {
+        "Function": "Links shoulder and elbow articulations.",
+        "Relations": "Head meets the scapula; distal end meets radius and ulna."
+      },
+      "relationships": [
+        {
+          "label": "Articulates with",
+          "targetIds": [
+            "scapula",
+            "radius",
+            "ulna"
+          ]
+        }
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Humerus and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb"
+      ]
+    },
+    {
+      "id": "biceps",
+      "title": "Biceps brachii",
+      "region": "arm",
+      "concepts": {
+        "right": [
+          "FMA37684",
+          "FMA37686"
+        ],
+        "left": [
+          "FMA37685",
+          "FMA37687"
+        ]
+      },
+      "fields": {
+        "Function": "Flexes the elbow; supinates the forearm.",
+        "Location": "Anterior arm.",
+        "Innervation": "Musculocutaneous nerve.",
+        "Relations": "Superficial to brachialis."
+      },
+      "relationships": [
+        {
+          "label": "Compare with deep brachialis",
+          "targetIds": [
+            "brachialis"
+          ]
+        }
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Biceps brachii and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534199/?report=printable"
+      ]
+    },
+    {
+      "id": "brachialis",
+      "title": "Brachialis",
+      "region": "arm",
+      "concepts": {
+        "right": [
+          "FMA37668"
+        ],
+        "left": [
+          "FMA37669"
+        ]
+      },
+      "fields": {
+        "Function": "Flexes the elbow.",
+        "Location": "Deep to biceps.",
+        "Innervation": "Predominantly musculocutaneous nerve; the lateral portion may receive radial supply."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Brachialis and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534199/?report=printable",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    },
+    {
+      "id": "coracobrachialis",
+      "title": "Coracobrachialis",
+      "region": "arm",
+      "concepts": {
+        "right": [
+          "FMA37665"
+        ],
+        "left": [
+          "FMA37666"
+        ]
+      },
+      "fields": {
+        "Function": "Flexes and adducts the arm.",
+        "Innervation": "Musculocutaneous nerve.",
+        "Relations": "The nerve usually passes through the muscle."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Coracobrachialis and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534199/?report=printable"
+      ]
+    },
+    {
+      "id": "triceps",
+      "title": "Triceps brachii",
+      "region": "arm",
+      "concepts": {
+        "right": [
+          "FMA37695",
+          "FMA37697",
+          "FMA37699"
+        ],
+        "left": [
+          "FMA37696",
+          "FMA37698",
+          "FMA37700"
+        ]
+      },
+      "fields": {
+        "Function": "Extends the elbow.",
+        "Location": "Posterior arm.",
+        "Innervation": "Radial nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Triceps brachii and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    },
+    {
+      "id": "brachioradialis",
+      "title": "Brachioradialis",
+      "region": "arm",
+      "concepts": {
+        "right": [
+          "FMA38486"
+        ],
+        "left": [
+          "FMA38487"
+        ]
+      },
+      "fields": {
+        "Function": "Flexes the elbow.",
+        "Innervation": "Radial nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Brachioradialis and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    },
+    {
+      "id": "brachial-artery",
+      "title": "Brachial artery",
+      "region": "arm",
+      "concepts": {
+        "right": [
+          "FMA22691"
+        ],
+        "left": [
+          "FMA22692"
+        ]
+      },
+      "fields": {
+        "Function": "Main arterial conduit through the arm."
+      },
+      "relationships": [
+        {
+          "label": "Follow distal arterial branches",
+          "targetIds": [
+            "radial-artery",
+            "ulnar-artery"
+          ]
+        }
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Brachial artery and explain its regional relationships."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK507841/"
+      ]
+    },
+    {
+      "id": "radius",
+      "title": "Radius",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA23464"
+        ],
+        "left": [
+          "FMA23465"
+        ]
+      },
+      "fields": {
+        "Function": "Lateral forearm bone in anatomical position.",
+        "Relations": "Thumb-side bone; its distal end articulates with scaphoid and lunate."
+      },
+      "relationships": [
+        {
+          "label": "Articulates with",
+          "targetIds": [
+            "ulna",
+            "scaphoid",
+            "lunate"
+          ]
+        }
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Radius and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb"
+      ]
+    },
+    {
+      "id": "ulna",
+      "title": "Ulna",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA23467"
+        ],
+        "left": [
+          "FMA23468"
+        ]
+      },
+      "fields": {
+        "Function": "Medial forearm bone in anatomical position.",
+        "Relations": "Olecranon forms the bony prominence at the elbow."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Ulna and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb"
+      ]
+    },
+    {
+      "id": "pronator-teres",
+      "title": "Pronator teres",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38560",
+          "FMA38562"
+        ],
+        "left": [
+          "FMA38561",
+          "FMA38563"
+        ]
+      },
+      "fields": {
+        "Function": "Pronates the forearm.",
+        "Innervation": "Median nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Pronator teres and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "pronator-quadratus",
+      "title": "Pronator quadratus",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38454"
+        ],
+        "left": [
+          "FMA38455"
+        ]
+      },
+      "fields": {
+        "Function": "Pronates the forearm.",
+        "Innervation": "Anterior interosseous branch of the median nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Pronator quadratus and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "supinator",
+      "title": "Supinator",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38513"
+        ],
+        "left": [
+          "FMA38514"
+        ]
+      },
+      "fields": {
+        "Function": "Supinates the forearm.",
+        "Innervation": "Deep branch of the radial nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Supinator and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    },
+    {
+      "id": "fcr",
+      "title": "Flexor carpi radialis",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38460"
+        ],
+        "left": [
+          "FMA38461"
+        ]
+      },
+      "fields": {
+        "Function": "Flexes and abducts the wrist.",
+        "Innervation": "Median nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor carpi radialis and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "fcu",
+      "title": "Flexor carpi ulnaris",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38617",
+          "FMA38619"
+        ],
+        "left": [
+          "FMA38618",
+          "FMA38620"
+        ]
+      },
+      "fields": {
+        "Function": "Flexes and adducts the wrist.",
+        "Innervation": "Ulnar nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor carpi ulnaris and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/"
+      ]
+    },
+    {
+      "id": "palmaris",
+      "title": "Palmaris longus",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38463"
+        ],
+        "left": [
+          "FMA38464"
+        ]
+      },
+      "fields": {
+        "Function": "Tenses the palmar aponeurosis.",
+        "Innervation": "Median nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Palmaris longus and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "fds",
+      "title": "Flexor digitorum superficialis",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38470"
+        ],
+        "left": [
+          "FMA38471"
+        ]
+      },
+      "fields": {
+        "Function": "Flexes proximal interphalangeal joints.",
+        "Innervation": "Median nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor digitorum superficialis and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "fdp",
+      "title": "Flexor digitorum profundus",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38479"
+        ],
+        "left": [
+          "FMA38480"
+        ]
+      },
+      "fields": {
+        "Function": "Flexes distal interphalangeal joints.",
+        "Innervation": "Lateral part: anterior interosseous nerve. Medial part: ulnar nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor digitorum profundus and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/"
+      ]
+    },
+    {
+      "id": "fpl",
+      "title": "Flexor pollicis longus",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38482"
+        ],
+        "left": [
+          "FMA38484"
+        ]
+      },
+      "fields": {
+        "Function": "Flexes the thumb interphalangeal joint.",
+        "Innervation": "Anterior interosseous branch of the median nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor pollicis longus and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "ecrl",
+      "title": "Extensor carpi radialis longus",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38495"
+        ],
+        "left": [
+          "FMA38496"
+        ]
+      },
+      "fields": {
+        "Function": "Extends and abducts the wrist.",
+        "Innervation": "Radial nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Extensor carpi radialis longus and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    },
+    {
+      "id": "ecrb",
+      "title": "Extensor carpi radialis brevis",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38498"
+        ],
+        "left": [
+          "FMA38499"
+        ]
+      },
+      "fields": {
+        "Function": "Extends and abducts the wrist.",
+        "Innervation": "Deep branch of the radial nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Extensor carpi radialis brevis and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    },
+    {
+      "id": "ed",
+      "title": "Extensor digitorum",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38501"
+        ],
+        "left": [
+          "FMA38502"
+        ]
+      },
+      "fields": {
+        "Function": "Extends digits two through five.",
+        "Innervation": "Posterior interosseous nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Extensor digitorum and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    },
+    {
+      "id": "ecu",
+      "title": "Extensor carpi ulnaris",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA38507"
+        ],
+        "left": [
+          "FMA38508"
+        ]
+      },
+      "fields": {
+        "Function": "Extends and adducts the wrist.",
+        "Innervation": "Posterior interosseous nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Extensor carpi ulnaris and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    },
+    {
+      "id": "radial-artery",
+      "title": "Radial artery",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA22733"
+        ],
+        "left": [
+          "FMA22734"
+        ]
+      },
+      "fields": {
+        "Function": "Arterial pathway on the radial side."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Radial artery and explain its regional relationships."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK507841/"
+      ]
+    },
+    {
+      "id": "ulnar-artery",
+      "title": "Ulnar artery",
+      "region": "forearm",
+      "concepts": {
+        "right": [
+          "FMA22797"
+        ],
+        "left": [
+          "FMA22798"
+        ]
+      },
+      "fields": {
+        "Function": "Arterial pathway on the ulnar side."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Ulnar artery and explain its regional relationships."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK507841/"
+      ]
+    },
+    {
+      "id": "scaphoid",
+      "title": "Scaphoid",
+      "region": "hand",
+      "concepts": {
+        "right": [
+          "FMA24435"
+        ],
+        "left": [
+          "FMA24436"
+        ]
+      },
+      "fields": {
+        "Function": "Radial bone of the proximal carpal row."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Scaphoid and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb"
+      ]
+    },
+    {
+      "id": "lunate",
+      "title": "Lunate",
+      "region": "hand",
+      "concepts": {
+        "right": [
+          "FMA24437"
+        ],
+        "left": [
+          "FMA24438"
+        ]
+      },
+      "fields": {
+        "Function": "Proximal carpal bone articulating with the radius."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Lunate and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb"
+      ]
+    },
+    {
+      "id": "retinaculum",
+      "title": "Flexor retinaculum",
+      "region": "hand",
+      "concepts": {
+        "right": [
+          "FMA40120"
+        ],
+        "left": [
+          "FMA40121"
+        ]
+      },
+      "fields": {
+        "Function": "Forms the roof of the carpal tunnel.",
+        "Relations": "The median nerve traverses the tunnel beneath it.",
+        "Clinical relevance": "Tunnel compression can affect median nerve function."
+      },
+      "relationships": [
+        {
+          "label": "Explore nearby carpal bones",
+          "targetIds": [
+            "scaphoid",
+            "lunate"
+          ]
+        }
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor retinaculum and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+        "https://www.orthoinfo.org/bodypart/hand-wrist/carpal-tunnel-syndrome/"
+      ]
+    },
+    {
+      "id": "apb",
+      "title": "Abductor pollicis brevis",
+      "region": "hand",
+      "concepts": {
+        "right": [
+          "FMA37386"
+        ],
+        "left": [
+          "FMA37387"
+        ]
+      },
+      "fields": {
+        "Function": "Abducts the thumb.",
+        "Innervation": "Recurrent branch of the median nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Abductor pollicis brevis and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "opponens",
+      "title": "Opponens pollicis",
+      "region": "hand",
+      "concepts": {
+        "right": [
+          "FMA37390"
+        ],
+        "left": [
+          "FMA37391"
+        ]
+      },
+      "fields": {
+        "Function": "Opposes the thumb.",
+        "Innervation": "Recurrent branch of the median nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Opponens pollicis and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "adductor",
+      "title": "Adductor pollicis",
+      "region": "hand",
+      "concepts": {
+        "right": [
+          "FMA46121",
+          "FMA46123"
+        ],
+        "left": [
+          "FMA46122",
+          "FMA46124"
+        ]
+      },
+      "fields": {
+        "Function": "Adducts the thumb.",
+        "Innervation": "Deep branch of the ulnar nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Adductor pollicis and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/"
+      ]
+    },
+    {
+      "id": "epl",
+      "title": "Extensor pollicis longus",
+      "region": "hand",
+      "concepts": {
+        "right": [
+          "FMA38522"
+        ],
+        "left": [
+          "FMA38523"
+        ]
+      },
+      "fields": {
+        "Function": "Extends the thumb interphalangeal joint.",
+        "Innervation": "Posterior interosseous nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Extensor pollicis longus and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    },
+    {
+      "id": "apl",
+      "title": "Abductor pollicis longus",
+      "region": "hand",
+      "concepts": {
+        "right": [
+          "FMA38516"
+        ],
+        "left": [
+          "FMA38517"
+        ]
+      },
+      "fields": {
+        "Function": "Abducts the thumb at its base.",
+        "Innervation": "Posterior interosseous nerve."
+      },
+      "relationships": [],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Abductor pollicis longus and explain its regional relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "shoulder-foundations",
+      "title": "The shoulder framework",
+      "region": "shoulder",
+      "minutes": 8,
+      "steps": [
+        {
+          "title": "Orient the girdle",
+          "text": "Find the clavicle and scapula, then compare their positions.",
+          "cardIds": [
+            "clavicle",
+            "scapula"
+          ],
+          "kind": "understand",
+          "objective": "Orient the girdle.",
+          "questionIds": [
+            "q-clavicle",
+            "q-scapula",
+            "q-identify-scapula"
+          ]
+        },
+        {
+          "title": "Explore the cuff",
+          "text": "Compare the four cuff muscles around the shoulder. Use hide and focus to inspect deeper structures.",
+          "cardIds": [
+            "supraspinatus",
+            "infraspinatus",
+            "subscapularis",
+            "teres-minor"
+          ],
+          "kind": "observe",
+          "objective": "Explore the cuff.",
+          "questionIds": [
+            "q-supraspinatus",
+            "q-infraspinatus",
+            "q-teres-minor"
+          ]
+        },
+        {
+          "title": "Connect muscle and nerve",
+          "text": "Explore the deltoid, then use the axillary nerve relationship map.",
+          "cardIds": [
+            "deltoid",
+            "teres-minor"
+          ],
+          "kind": "explain",
+          "objective": "Connect muscle and nerve.",
+          "questionIds": [
+            "q-deltoid",
+            "q-teres-minor",
+            "q-shoulder-weakness-1"
+          ]
+        },
+        {
+          "kind": "check",
+          "title": "Check the linked anatomy",
+          "text": "Identify the structures you inspected, then use the feedback to revisit any missed relationships.",
+          "objective": "Identify the anatomy linked to this lesson.",
+          "questionIds": [
+            "q-clavicle",
+            "q-scapula",
+            "q-identify-scapula"
+          ],
+          "cardIds": [
+            "clavicle",
+            "scapula"
+          ]
+        }
+      ],
+      "version": "0.2.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain the anatomy covered in The shoulder framework."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle",
+        "https://www.ncbi.nlm.nih.gov/books/NBK537056/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK536933/",
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK493212/"
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "shoulder-relations",
+      "title": "Shoulder movement & relationships",
+      "region": "shoulder",
+      "minutes": 8,
+      "steps": [
+        {
+          "title": "Superficial and deep",
+          "text": "Hide the deltoid to inspect underlying modeled structures.",
+          "cardIds": [
+            "deltoid",
+            "supraspinatus"
+          ],
+          "kind": "understand",
+          "objective": "Superficial and deep.",
+          "questionIds": [
+            "q-deltoid",
+            "q-supraspinatus",
+            "q-shoulder-weakness-1"
+          ]
+        },
+        {
+          "title": "Compare the teres muscles",
+          "text": "Distinguish teres major from teres minor using their positions and cards.",
+          "cardIds": [
+            "teres-major",
+            "teres-minor"
+          ],
+          "kind": "observe",
+          "objective": "Compare the teres muscles.",
+          "questionIds": [
+            "q-teres-minor",
+            "q-teres-major",
+            "q-cuff-movement-2"
+          ]
+        },
+        {
+          "title": "Explain the movement",
+          "text": "Review function and nerve supply before attempting the shoulder cases.",
+          "cardIds": [
+            "deltoid",
+            "infraspinatus"
+          ],
+          "kind": "explain",
+          "objective": "Explain the movement.",
+          "questionIds": [
+            "q-deltoid",
+            "q-infraspinatus",
+            "q-shoulder-weakness-1"
+          ]
+        },
+        {
+          "kind": "check",
+          "title": "Check the linked anatomy",
+          "text": "Identify the structures you inspected, then use the feedback to revisit any missed relationships.",
+          "objective": "Identify the anatomy linked to this lesson.",
+          "questionIds": [
+            "q-deltoid",
+            "q-supraspinatus",
+            "q-shoulder-weakness-1"
+          ],
+          "cardIds": [
+            "deltoid",
+            "supraspinatus"
+          ]
+        }
+      ],
+      "version": "0.2.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain the anatomy covered in Shoulder movement & relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle",
+        "https://www.ncbi.nlm.nih.gov/books/NBK537056/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK536933/",
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK493212/"
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "arm-compartments",
+      "title": "Arm compartments",
+      "region": "arm",
+      "minutes": 8,
+      "steps": [
+        {
+          "title": "Start with bone",
+          "text": "Orient the humerus before adding muscles.",
+          "cardIds": [
+            "humerus"
+          ],
+          "kind": "understand",
+          "objective": "Start with bone.",
+          "questionIds": [
+            "q-humerus"
+          ]
+        },
+        {
+          "title": "Anterior compartment",
+          "text": "Compare biceps, brachialis and coracobrachialis.",
+          "cardIds": [
+            "biceps",
+            "brachialis",
+            "coracobrachialis"
+          ],
+          "kind": "observe",
+          "objective": "Anterior compartment.",
+          "questionIds": [
+            "q-biceps",
+            "q-brachialis",
+            "q-coracobrachialis"
+          ]
+        },
+        {
+          "title": "Posterior compartment",
+          "text": "Rotate the model to inspect triceps and relate it to the humerus.",
+          "cardIds": [
+            "triceps",
+            "humerus"
+          ],
+          "kind": "explain",
+          "objective": "Posterior compartment.",
+          "questionIds": [
+            "q-humerus",
+            "q-triceps",
+            "q-posterior-arm-1"
+          ]
+        },
+        {
+          "kind": "check",
+          "title": "Check the linked anatomy",
+          "text": "Identify the structures you inspected, then use the feedback to revisit any missed relationships.",
+          "objective": "Identify the anatomy linked to this lesson.",
+          "questionIds": [
+            "q-humerus",
+            "q-biceps",
+            "q-brachialis"
+          ],
+          "cardIds": [
+            "humerus",
+            "biceps",
+            "brachialis"
+          ]
+        }
+      ],
+      "version": "0.2.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain the anatomy covered in Arm compartments."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534199/?report=printable",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK507841/"
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "elbow-relations",
+      "title": "Elbow function & vascular relations",
+      "region": "arm",
+      "minutes": 8,
+      "steps": [
+        {
+          "title": "Compare flexors",
+          "text": "Inspect biceps and brachioradialis. Review their distinct nerve supply.",
+          "cardIds": [
+            "biceps",
+            "brachioradialis"
+          ],
+          "kind": "understand",
+          "objective": "Compare flexors.",
+          "questionIds": [
+            "q-biceps",
+            "q-brachioradialis",
+            "q-identify-biceps"
+          ]
+        },
+        {
+          "title": "Follow the artery",
+          "text": "Select the brachial artery and follow its distal branches using the relationship link.",
+          "cardIds": [
+            "brachial-artery"
+          ],
+          "kind": "observe",
+          "objective": "Follow the artery.",
+          "questionIds": [
+            "q-brachial-artery"
+          ]
+        },
+        {
+          "title": "Test your explanation",
+          "text": "Explain flexion and extension using the structure cards.",
+          "cardIds": [
+            "brachialis",
+            "triceps"
+          ],
+          "kind": "explain",
+          "objective": "Test your explanation.",
+          "questionIds": [
+            "q-brachialis",
+            "q-triceps",
+            "q-elbow-flexion-2"
+          ]
+        },
+        {
+          "kind": "check",
+          "title": "Check the linked anatomy",
+          "text": "Identify the structures you inspected, then use the feedback to revisit any missed relationships.",
+          "objective": "Identify the anatomy linked to this lesson.",
+          "questionIds": [
+            "q-biceps",
+            "q-brachioradialis",
+            "q-identify-biceps"
+          ],
+          "cardIds": [
+            "biceps",
+            "brachioradialis"
+          ]
+        }
+      ],
+      "version": "0.2.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain the anatomy covered in Elbow function & vascular relations."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534199/?report=printable",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK507841/"
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "forearm-rotation",
+      "title": "Forearm rotation",
+      "region": "forearm",
+      "minutes": 8,
+      "steps": [
+        {
+          "title": "Orient the bones",
+          "text": "Compare radius and ulna in anatomical position.",
+          "cardIds": [
+            "radius",
+            "ulna"
+          ],
+          "kind": "understand",
+          "objective": "Orient the bones.",
+          "questionIds": [
+            "q-radius",
+            "q-ulna",
+            "q-identify-radius"
+          ]
+        },
+        {
+          "title": "Pronation",
+          "text": "Locate the two pronators. Read their supply before continuing.",
+          "cardIds": [
+            "pronator-teres",
+            "pronator-quadratus"
+          ],
+          "kind": "observe",
+          "objective": "Pronation.",
+          "questionIds": [
+            "q-pronator-teres",
+            "q-pronator-quadratus"
+          ]
+        },
+        {
+          "title": "Supination",
+          "text": "Locate supinator and compare its orientation with the pronators.",
+          "cardIds": [
+            "supinator"
+          ],
+          "kind": "explain",
+          "objective": "Supination.",
+          "questionIds": [
+            "q-supinator"
+          ]
+        },
+        {
+          "kind": "check",
+          "title": "Check the linked anatomy",
+          "text": "Identify the structures you inspected, then use the feedback to revisit any missed relationships.",
+          "objective": "Identify the anatomy linked to this lesson.",
+          "questionIds": [
+            "q-radius",
+            "q-ulna",
+            "q-identify-radius"
+          ],
+          "cardIds": [
+            "radius",
+            "ulna"
+          ]
+        }
+      ],
+      "version": "0.2.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain the anatomy covered in Forearm rotation."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK507841/"
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "forearm-compartments",
+      "title": "Flexors, extensors & nerve supply",
+      "region": "forearm",
+      "minutes": 8,
+      "steps": [
+        {
+          "title": "Wrist movement",
+          "text": "Compare the radial and ulnar wrist flexors.",
+          "cardIds": [
+            "fcr",
+            "fcu"
+          ],
+          "kind": "understand",
+          "objective": "Wrist movement.",
+          "questionIds": [
+            "q-fcr",
+            "q-fcu",
+            "q-forearm-supply-1"
+          ]
+        },
+        {
+          "title": "Finger flexion",
+          "text": "Compare superficial and deep finger flexors; note their different actions.",
+          "cardIds": [
+            "fds",
+            "fdp",
+            "fpl"
+          ],
+          "kind": "observe",
+          "objective": "Finger flexion.",
+          "questionIds": [
+            "q-fds",
+            "q-fdp",
+            "q-fpl"
+          ]
+        },
+        {
+          "title": "Posterior compartment",
+          "text": "Rotate the model and examine wrist and finger extensors.",
+          "cardIds": [
+            "ecrl",
+            "ecrb",
+            "ed",
+            "ecu"
+          ],
+          "kind": "explain",
+          "objective": "Posterior compartment.",
+          "questionIds": [
+            "q-ecrl",
+            "q-ecrb",
+            "q-ed"
+          ]
+        },
+        {
+          "kind": "check",
+          "title": "Check the linked anatomy",
+          "text": "Identify the structures you inspected, then use the feedback to revisit any missed relationships.",
+          "objective": "Identify the anatomy linked to this lesson.",
+          "questionIds": [
+            "q-fcr",
+            "q-fcu",
+            "q-forearm-supply-1"
+          ],
+          "cardIds": [
+            "fcr",
+            "fcu"
+          ]
+        }
+      ],
+      "version": "0.2.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain the anatomy covered in Flexors, extensors & nerve supply."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK507841/"
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "wrist-tunnel",
+      "title": "The wrist & carpal tunnel",
+      "region": "hand",
+      "minutes": 8,
+      "steps": [
+        {
+          "title": "Carpal orientation",
+          "text": "Locate scaphoid and lunate.",
+          "cardIds": [
+            "scaphoid",
+            "lunate"
+          ],
+          "kind": "understand",
+          "objective": "Carpal orientation.",
+          "questionIds": [
+            "q-scaphoid",
+            "q-lunate"
+          ]
+        },
+        {
+          "title": "Tunnel roof",
+          "text": "Inspect the flexor retinaculum; review its relationship to the tunnel.",
+          "cardIds": [
+            "retinaculum"
+          ],
+          "kind": "observe",
+          "objective": "Tunnel roof.",
+          "questionIds": [
+            "q-retinaculum",
+            "q-identify-retinaculum",
+            "q-carpal-tunnel-1"
+          ]
+        },
+        {
+          "title": "Connect to function",
+          "text": "Use the median nerve map to connect the wrist to thenar function.",
+          "cardIds": [
+            "apb",
+            "opponens"
+          ],
+          "kind": "explain",
+          "objective": "Connect to function.",
+          "questionIds": [
+            "q-apb",
+            "q-opponens",
+            "q-thumb-comparison-1"
+          ]
+        },
+        {
+          "kind": "check",
+          "title": "Check the linked anatomy",
+          "text": "Identify the structures you inspected, then use the feedback to revisit any missed relationships.",
+          "objective": "Identify the anatomy linked to this lesson.",
+          "questionIds": [
+            "q-scaphoid",
+            "q-lunate",
+            "q-retinaculum"
+          ],
+          "cardIds": [
+            "scaphoid",
+            "lunate",
+            "retinaculum"
+          ]
+        }
+      ],
+      "version": "0.2.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain the anatomy covered in The wrist & carpal tunnel."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+        "https://www.orthoinfo.org/bodypart/hand-wrist/carpal-tunnel-syndrome/",
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "hand-movement",
+      "title": "Thumb function & nerve relationships",
+      "region": "hand",
+      "minutes": 8,
+      "steps": [
+        {
+          "title": "Thenar actions",
+          "text": "Compare abduction and opposition of the thumb.",
+          "cardIds": [
+            "apb",
+            "opponens"
+          ],
+          "kind": "understand",
+          "objective": "Thenar actions.",
+          "questionIds": [
+            "q-apb",
+            "q-opponens",
+            "q-thumb-comparison-1"
+          ]
+        },
+        {
+          "title": "Adduction",
+          "text": "Inspect adductor pollicis and review its innervation.",
+          "cardIds": [
+            "adductor"
+          ],
+          "kind": "observe",
+          "objective": "Adduction.",
+          "questionIds": [
+            "q-adductor",
+            "q-thumb-comparison-2"
+          ]
+        },
+        {
+          "title": "Extrinsic movement",
+          "text": "Find the long thumb extensor and abductor.",
+          "cardIds": [
+            "epl",
+            "apl"
+          ],
+          "kind": "explain",
+          "objective": "Extrinsic movement.",
+          "questionIds": [
+            "q-epl",
+            "q-apl"
+          ]
+        },
+        {
+          "kind": "check",
+          "title": "Check the linked anatomy",
+          "text": "Identify the structures you inspected, then use the feedback to revisit any missed relationships.",
+          "objective": "Identify the anatomy linked to this lesson.",
+          "questionIds": [
+            "q-apb",
+            "q-opponens",
+            "q-thumb-comparison-1"
+          ],
+          "cardIds": [
+            "apb",
+            "opponens"
+          ]
+        }
+      ],
+      "version": "0.2.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain the anatomy covered in Thumb function & nerve relationships."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+        "https://www.orthoinfo.org/bodypart/hand-wrist/carpal-tunnel-syndrome/",
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ],
+      "prerequisites": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-clavicle",
+      "region": "shoulder",
+      "kind": "select",
+      "prompt": "Select the Clavicle.",
+      "cardId": "clavicle",
+      "options": [],
+      "answer": "Clavicle",
+      "explanation": "The highlighted anatomy is Clavicle. Connects the shoulder girdle to the sternum.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Clavicle."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-scapula",
+      "region": "shoulder",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "scapula",
+      "options": [
+        "Clavicle",
+        "Deltoid",
+        "Supraspinatus",
+        "Scapula"
+      ],
+      "answer": "Scapula",
+      "explanation": "The highlighted anatomy is Scapula. Provides the glenoid and shoulder muscle attachments.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Scapula."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-deltoid",
+      "region": "shoulder",
+      "kind": "select",
+      "prompt": "Select the Deltoid.",
+      "cardId": "deltoid",
+      "options": [],
+      "answer": "Deltoid",
+      "explanation": "The highlighted anatomy is Deltoid. Middle fibers abduct the arm.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Deltoid."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-supraspinatus",
+      "region": "shoulder",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "supraspinatus",
+      "options": [
+        "Deltoid",
+        "Supraspinatus",
+        "Clavicle",
+        "Scapula"
+      ],
+      "answer": "Supraspinatus",
+      "explanation": "The highlighted anatomy is Supraspinatus. Initiates abduction and supports joint stability.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Supraspinatus."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-infraspinatus",
+      "region": "shoulder",
+      "kind": "select",
+      "prompt": "Select the Infraspinatus.",
+      "cardId": "infraspinatus",
+      "options": [],
+      "answer": "Infraspinatus",
+      "explanation": "The highlighted anatomy is Infraspinatus. Laterally rotates the arm.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Infraspinatus."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-teres-minor",
+      "region": "shoulder",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "teres-minor",
+      "options": [
+        "Clavicle",
+        "Scapula",
+        "Deltoid",
+        "Teres minor"
+      ],
+      "answer": "Teres minor",
+      "explanation": "The highlighted anatomy is Teres minor. Laterally rotates the arm.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Teres minor."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-subscapularis",
+      "region": "shoulder",
+      "kind": "select",
+      "prompt": "Select the Subscapularis.",
+      "cardId": "subscapularis",
+      "options": [],
+      "answer": "Subscapularis",
+      "explanation": "The highlighted anatomy is Subscapularis. Medially rotates the arm.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Subscapularis."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-teres-major",
+      "region": "shoulder",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "teres-major",
+      "options": [
+        "Deltoid",
+        "Teres major",
+        "Clavicle",
+        "Scapula"
+      ],
+      "answer": "Teres major",
+      "explanation": "The highlighted anatomy is Teres major. Adducts and medially rotates the arm.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Teres major."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-humerus",
+      "region": "arm",
+      "kind": "select",
+      "prompt": "Select the Humerus.",
+      "cardId": "humerus",
+      "options": [],
+      "answer": "Humerus",
+      "explanation": "The highlighted anatomy is Humerus. Links shoulder and elbow articulations.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Humerus."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-biceps",
+      "region": "arm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "biceps",
+      "options": [
+        "Humerus",
+        "Brachialis",
+        "Coracobrachialis",
+        "Biceps brachii"
+      ],
+      "answer": "Biceps brachii",
+      "explanation": "The highlighted anatomy is Biceps brachii. Flexes the elbow; supinates the forearm.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Biceps brachii."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-brachialis",
+      "region": "arm",
+      "kind": "select",
+      "prompt": "Select the Brachialis.",
+      "cardId": "brachialis",
+      "options": [],
+      "answer": "Brachialis",
+      "explanation": "The highlighted anatomy is Brachialis. Flexes the elbow.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Brachialis."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-coracobrachialis",
+      "region": "arm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "coracobrachialis",
+      "options": [
+        "Brachialis",
+        "Coracobrachialis",
+        "Humerus",
+        "Biceps brachii"
+      ],
+      "answer": "Coracobrachialis",
+      "explanation": "The highlighted anatomy is Coracobrachialis. Flexes and adducts the arm.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Coracobrachialis."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-triceps",
+      "region": "arm",
+      "kind": "select",
+      "prompt": "Select the Triceps brachii.",
+      "cardId": "triceps",
+      "options": [],
+      "answer": "Triceps brachii",
+      "explanation": "The highlighted anatomy is Triceps brachii. Extends the elbow.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Triceps brachii."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-brachioradialis",
+      "region": "arm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "brachioradialis",
+      "options": [
+        "Humerus",
+        "Biceps brachii",
+        "Brachialis",
+        "Brachioradialis"
+      ],
+      "answer": "Brachioradialis",
+      "explanation": "The highlighted anatomy is Brachioradialis. Flexes the elbow.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Brachioradialis."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-brachial-artery",
+      "region": "arm",
+      "kind": "select",
+      "prompt": "Select the Brachial artery.",
+      "cardId": "brachial-artery",
+      "options": [],
+      "answer": "Brachial artery",
+      "explanation": "The highlighted anatomy is Brachial artery. Main arterial conduit through the arm.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Brachial artery."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-radius",
+      "region": "forearm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "radius",
+      "options": [
+        "Pronator quadratus",
+        "Radius",
+        "Ulna",
+        "Pronator teres"
+      ],
+      "answer": "Radius",
+      "explanation": "The highlighted anatomy is Radius. Lateral forearm bone in anatomical position.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Radius."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-ulna",
+      "region": "forearm",
+      "kind": "select",
+      "prompt": "Select the Ulna.",
+      "cardId": "ulna",
+      "options": [],
+      "answer": "Ulna",
+      "explanation": "The highlighted anatomy is Ulna. Medial forearm bone in anatomical position.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Ulna."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-pronator-teres",
+      "region": "forearm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "pronator-teres",
+      "options": [
+        "Radius",
+        "Ulna",
+        "Pronator quadratus",
+        "Pronator teres"
+      ],
+      "answer": "Pronator teres",
+      "explanation": "The highlighted anatomy is Pronator teres. Pronates the forearm.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Pronator teres."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-pronator-quadratus",
+      "region": "forearm",
+      "kind": "select",
+      "prompt": "Select the Pronator quadratus.",
+      "cardId": "pronator-quadratus",
+      "options": [],
+      "answer": "Pronator quadratus",
+      "explanation": "The highlighted anatomy is Pronator quadratus. Pronates the forearm.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Pronator quadratus."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-supinator",
+      "region": "forearm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "supinator",
+      "options": [
+        "Pronator teres",
+        "Supinator",
+        "Radius",
+        "Ulna"
+      ],
+      "answer": "Supinator",
+      "explanation": "The highlighted anatomy is Supinator. Supinates the forearm.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Supinator."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-fcr",
+      "region": "forearm",
+      "kind": "select",
+      "prompt": "Select the Flexor carpi radialis.",
+      "cardId": "fcr",
+      "options": [],
+      "answer": "Flexor carpi radialis",
+      "explanation": "The highlighted anatomy is Flexor carpi radialis. Flexes and abducts the wrist.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor carpi radialis."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-fcu",
+      "region": "forearm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "fcu",
+      "options": [
+        "Radius",
+        "Ulna",
+        "Pronator teres",
+        "Flexor carpi ulnaris"
+      ],
+      "answer": "Flexor carpi ulnaris",
+      "explanation": "The highlighted anatomy is Flexor carpi ulnaris. Flexes and adducts the wrist.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor carpi ulnaris."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-palmaris",
+      "region": "forearm",
+      "kind": "select",
+      "prompt": "Select the Palmaris longus.",
+      "cardId": "palmaris",
+      "options": [],
+      "answer": "Palmaris longus",
+      "explanation": "The highlighted anatomy is Palmaris longus. Tenses the palmar aponeurosis.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Palmaris longus."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-fds",
+      "region": "forearm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "fds",
+      "options": [
+        "Pronator teres",
+        "Flexor digitorum superficialis",
+        "Radius",
+        "Ulna"
+      ],
+      "answer": "Flexor digitorum superficialis",
+      "explanation": "The highlighted anatomy is Flexor digitorum superficialis. Flexes proximal interphalangeal joints.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor digitorum superficialis."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-fdp",
+      "region": "forearm",
+      "kind": "select",
+      "prompt": "Select the Flexor digitorum profundus.",
+      "cardId": "fdp",
+      "options": [],
+      "answer": "Flexor digitorum profundus",
+      "explanation": "The highlighted anatomy is Flexor digitorum profundus. Flexes distal interphalangeal joints.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor digitorum profundus."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-fpl",
+      "region": "forearm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "fpl",
+      "options": [
+        "Radius",
+        "Ulna",
+        "Pronator teres",
+        "Flexor pollicis longus"
+      ],
+      "answer": "Flexor pollicis longus",
+      "explanation": "The highlighted anatomy is Flexor pollicis longus. Flexes the thumb interphalangeal joint.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor pollicis longus."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-ecrl",
+      "region": "forearm",
+      "kind": "select",
+      "prompt": "Select the Extensor carpi radialis longus.",
+      "cardId": "ecrl",
+      "options": [],
+      "answer": "Extensor carpi radialis longus",
+      "explanation": "The highlighted anatomy is Extensor carpi radialis longus. Extends and abducts the wrist.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Extensor carpi radialis longus."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-ecrb",
+      "region": "forearm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "ecrb",
+      "options": [
+        "Pronator teres",
+        "Extensor carpi radialis brevis",
+        "Radius",
+        "Ulna"
+      ],
+      "answer": "Extensor carpi radialis brevis",
+      "explanation": "The highlighted anatomy is Extensor carpi radialis brevis. Extends and abducts the wrist.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Extensor carpi radialis brevis."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-ed",
+      "region": "forearm",
+      "kind": "select",
+      "prompt": "Select the Extensor digitorum.",
+      "cardId": "ed",
+      "options": [],
+      "answer": "Extensor digitorum",
+      "explanation": "The highlighted anatomy is Extensor digitorum. Extends digits two through five.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Extensor digitorum."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-ecu",
+      "region": "forearm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "ecu",
+      "options": [
+        "Radius",
+        "Ulna",
+        "Pronator teres",
+        "Extensor carpi ulnaris"
+      ],
+      "answer": "Extensor carpi ulnaris",
+      "explanation": "The highlighted anatomy is Extensor carpi ulnaris. Extends and adducts the wrist.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Extensor carpi ulnaris."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-radial-artery",
+      "region": "forearm",
+      "kind": "select",
+      "prompt": "Select the Radial artery.",
+      "cardId": "radial-artery",
+      "options": [],
+      "answer": "Radial artery",
+      "explanation": "The highlighted anatomy is Radial artery. Arterial pathway on the radial side.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Radial artery."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-ulnar-artery",
+      "region": "forearm",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "ulnar-artery",
+      "options": [
+        "Pronator teres",
+        "Ulnar artery",
+        "Radius",
+        "Ulna"
+      ],
+      "answer": "Ulnar artery",
+      "explanation": "The highlighted anatomy is Ulnar artery. Arterial pathway on the ulnar side.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Ulnar artery."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-scaphoid",
+      "region": "hand",
+      "kind": "select",
+      "prompt": "Select the Scaphoid.",
+      "cardId": "scaphoid",
+      "options": [],
+      "answer": "Scaphoid",
+      "explanation": "The highlighted anatomy is Scaphoid. Radial bone of the proximal carpal row.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Scaphoid."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-lunate",
+      "region": "hand",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "lunate",
+      "options": [
+        "Scaphoid",
+        "Flexor retinaculum",
+        "Abductor pollicis brevis",
+        "Lunate"
+      ],
+      "answer": "Lunate",
+      "explanation": "The highlighted anatomy is Lunate. Proximal carpal bone articulating with the radius.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Lunate."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-retinaculum",
+      "region": "hand",
+      "kind": "select",
+      "prompt": "Select the Flexor retinaculum.",
+      "cardId": "retinaculum",
+      "options": [],
+      "answer": "Flexor retinaculum",
+      "explanation": "The highlighted anatomy is Flexor retinaculum. Forms the roof of the carpal tunnel.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Flexor retinaculum."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-apb",
+      "region": "hand",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "apb",
+      "options": [
+        "Flexor retinaculum",
+        "Abductor pollicis brevis",
+        "Scaphoid",
+        "Lunate"
+      ],
+      "answer": "Abductor pollicis brevis",
+      "explanation": "The highlighted anatomy is Abductor pollicis brevis. Abducts the thumb.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Abductor pollicis brevis."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-opponens",
+      "region": "hand",
+      "kind": "select",
+      "prompt": "Select the Opponens pollicis.",
+      "cardId": "opponens",
+      "options": [],
+      "answer": "Opponens pollicis",
+      "explanation": "The highlighted anatomy is Opponens pollicis. Opposes the thumb.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Opponens pollicis."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-adductor",
+      "region": "hand",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "adductor",
+      "options": [
+        "Scaphoid",
+        "Lunate",
+        "Flexor retinaculum",
+        "Adductor pollicis"
+      ],
+      "answer": "Adductor pollicis",
+      "explanation": "The highlighted anatomy is Adductor pollicis. Adducts the thumb.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Adductor pollicis."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-epl",
+      "region": "hand",
+      "kind": "select",
+      "prompt": "Select the Extensor pollicis longus.",
+      "cardId": "epl",
+      "options": [],
+      "answer": "Extensor pollicis longus",
+      "explanation": "The highlighted anatomy is Extensor pollicis longus. Extends the thumb interphalangeal joint.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Extensor pollicis longus."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-apl",
+      "region": "hand",
+      "kind": "identify",
+      "prompt": "Which structure is highlighted?",
+      "cardId": "apl",
+      "options": [
+        "Flexor retinaculum",
+        "Abductor pollicis longus",
+        "Scaphoid",
+        "Lunate"
+      ],
+      "answer": "Abductor pollicis longus",
+      "explanation": "The highlighted anatomy is Abductor pollicis longus. Abducts the thumb at its base.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Identify Abductor pollicis longus."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-identify-scapula",
+      "region": "shoulder",
+      "kind": "identify",
+      "prompt": "Identify the highlighted anatomy in this regional view.",
+      "cardId": "scapula",
+      "options": [
+        "Supraspinatus",
+        "Deltoid",
+        "Clavicle",
+        "Scapula"
+      ],
+      "answer": "Scapula",
+      "explanation": "This is Scapula. Compare its position with surrounding structures.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Recognize Scapula in context."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-identify-biceps",
+      "region": "arm",
+      "kind": "identify",
+      "prompt": "Identify the highlighted anatomy in this regional view.",
+      "cardId": "biceps",
+      "options": [
+        "Coracobrachialis",
+        "Brachialis",
+        "Humerus",
+        "Biceps brachii"
+      ],
+      "answer": "Biceps brachii",
+      "explanation": "This is Biceps brachii. Compare its position with surrounding structures.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Recognize Biceps brachii in context."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-identify-radius",
+      "region": "forearm",
+      "kind": "identify",
+      "prompt": "Identify the highlighted anatomy in this regional view.",
+      "cardId": "radius",
+      "options": [
+        "Pronator quadratus",
+        "Pronator teres",
+        "Ulna",
+        "Radius"
+      ],
+      "answer": "Radius",
+      "explanation": "This is Radius. Compare its position with surrounding structures.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Recognize Radius in context."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-identify-retinaculum",
+      "region": "hand",
+      "kind": "identify",
+      "prompt": "Identify the highlighted anatomy in this regional view.",
+      "cardId": "retinaculum",
+      "options": [
+        "Abductor pollicis brevis",
+        "Lunate",
+        "Scaphoid",
+        "Flexor retinaculum"
+      ],
+      "answer": "Flexor retinaculum",
+      "explanation": "This is Flexor retinaculum. Compare its position with surrounding structures.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Recognize Flexor retinaculum in context."
+      ],
+      "references": [
+        "https://lifesciencedb.jp/bp3d/"
+      ]
+    },
+    {
+      "id": "q-shoulder-weakness-1",
+      "region": "shoulder",
+      "kind": "clinical",
+      "prompt": "Which nerve supplies the deltoid?",
+      "cardId": "deltoid",
+      "options": [
+        "Axillary nerve",
+        "Median nerve",
+        "Ulnar nerve",
+        "Musculocutaneous nerve"
+      ],
+      "answer": "Axillary nerve",
+      "explanation": "The deltoid receives axillary nerve supply.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK537056/"
+      ]
+    },
+    {
+      "id": "q-shoulder-weakness-2",
+      "region": "shoulder",
+      "kind": "clinical",
+      "prompt": "Which humeral region is closely related to the axillary nerve?",
+      "cardId": "deltoid",
+      "options": [
+        "Surgical neck",
+        "Trochlea",
+        "Medial epicondyle",
+        "Capitulum"
+      ],
+      "answer": "Surgical neck",
+      "explanation": "The axillary nerve passes around the surgical neck.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK493212/"
+      ]
+    },
+    {
+      "id": "q-cuff-movement-1",
+      "region": "shoulder",
+      "kind": "clinical",
+      "prompt": "Which cuff muscle initiates arm abduction?",
+      "cardId": "supraspinatus",
+      "options": [
+        "Teres major",
+        "Supraspinatus",
+        "Triceps brachii",
+        "Coracobrachialis"
+      ],
+      "answer": "Supraspinatus",
+      "explanation": "Supraspinatus contributes to the initiation of abduction.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK536933/"
+      ]
+    },
+    {
+      "id": "q-cuff-movement-2",
+      "region": "shoulder",
+      "kind": "clinical",
+      "prompt": "Which nerve supplies teres minor?",
+      "cardId": "teres-minor",
+      "options": [
+        "Axillary nerve",
+        "Ulnar nerve",
+        "Median nerve",
+        "Musculocutaneous nerve"
+      ],
+      "answer": "Axillary nerve",
+      "explanation": "Teres minor receives axillary nerve supply.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK493212/"
+      ]
+    },
+    {
+      "id": "q-elbow-flexion-1",
+      "region": "arm",
+      "kind": "clinical",
+      "prompt": "Which nerve supplies biceps brachii?",
+      "cardId": "biceps",
+      "options": [
+        "Radial nerve",
+        "Musculocutaneous nerve",
+        "Median nerve",
+        "Ulnar nerve"
+      ],
+      "answer": "Musculocutaneous nerve",
+      "explanation": "Biceps receives musculocutaneous nerve supply.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK534199/?report=printable"
+      ]
+    },
+    {
+      "id": "q-elbow-flexion-2",
+      "region": "arm",
+      "kind": "clinical",
+      "prompt": "Which muscle is deep to biceps and assists elbow flexion?",
+      "cardId": "brachialis",
+      "options": [
+        "Triceps brachii",
+        "Deltoid",
+        "Brachialis",
+        "Supinator"
+      ],
+      "answer": "Brachialis",
+      "explanation": "Brachialis lies beneath biceps.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK534199/?report=printable"
+      ]
+    },
+    {
+      "id": "q-posterior-arm-1",
+      "region": "arm",
+      "kind": "clinical",
+      "prompt": "Which nerve supplies triceps?",
+      "cardId": "triceps",
+      "options": [
+        "Median nerve",
+        "Radial nerve",
+        "Axillary nerve",
+        "Ulnar nerve"
+      ],
+      "answer": "Radial nerve",
+      "explanation": "Radial nerve supply supports triceps function.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    },
+    {
+      "id": "q-posterior-arm-2",
+      "region": "arm",
+      "kind": "clinical",
+      "prompt": "Which action is most directly associated with triceps?",
+      "cardId": "triceps",
+      "options": [
+        "Elbow extension",
+        "Thumb opposition",
+        "Wrist flexion",
+        "Forearm pronation"
+      ],
+      "answer": "Elbow extension",
+      "explanation": "Triceps extends the elbow.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+      ]
+    },
+    {
+      "id": "q-pinch-movement-1",
+      "region": "forearm",
+      "kind": "clinical",
+      "prompt": "Which muscle flexes the thumb interphalangeal joint?",
+      "cardId": "fpl",
+      "options": [
+        "Flexor pollicis longus",
+        "Extensor pollicis longus",
+        "Brachialis",
+        "Supinator"
+      ],
+      "answer": "Flexor pollicis longus",
+      "explanation": "Flexor pollicis longus acts on the thumb interphalangeal joint.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+      ]
+    },
+    {
+      "id": "q-pinch-movement-2",
+      "region": "forearm",
+      "kind": "clinical",
+      "prompt": "Which nerve branch supplies this muscle?",
+      "cardId": "fpl",
+      "options": [
+        "Anterior interosseous nerve",
+        "Axillary nerve",
+        "Ulnar nerve",
+        "Musculocutaneous nerve"
+      ],
+      "answer": "Anterior interosseous nerve",
+      "explanation": "This median nerve branch supplies flexor pollicis longus.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "q-forearm-supply-1",
+      "region": "forearm",
+      "kind": "clinical",
+      "prompt": "Which nerve supplies flexor carpi ulnaris?",
+      "cardId": "fcu",
+      "options": [
+        "Median nerve",
+        "Ulnar nerve",
+        "Radial nerve",
+        "Axillary nerve"
+      ],
+      "answer": "Ulnar nerve",
+      "explanation": "Flexor carpi ulnaris receives ulnar supply.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/"
+      ]
+    },
+    {
+      "id": "q-forearm-supply-2",
+      "region": "forearm",
+      "kind": "clinical",
+      "prompt": "Which nerve supplies flexor carpi radialis?",
+      "cardId": "fcr",
+      "options": [
+        "Ulnar nerve",
+        "Axillary nerve",
+        "Median nerve",
+        "Radial nerve"
+      ],
+      "answer": "Median nerve",
+      "explanation": "Flexor carpi radialis receives median supply.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "q-carpal-tunnel-1",
+      "region": "hand",
+      "kind": "clinical",
+      "prompt": "Which structure forms the tunnel roof?",
+      "cardId": "retinaculum",
+      "options": [
+        "Flexor retinaculum",
+        "Lunate",
+        "Scaphoid",
+        "Extensor pollicis longus"
+      ],
+      "answer": "Flexor retinaculum",
+      "explanation": "The flexor retinaculum spans the palmar carpal arch.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb"
+      ]
+    },
+    {
+      "id": "q-carpal-tunnel-2",
+      "region": "hand",
+      "kind": "clinical",
+      "prompt": "Which nerve passes through the carpal tunnel?",
+      "cardId": "retinaculum",
+      "options": [
+        "Median nerve",
+        "Axillary nerve",
+        "Musculocutaneous nerve",
+        "Ulnar nerve"
+      ],
+      "answer": "Median nerve",
+      "explanation": "The median nerve passes through the tunnel beneath the retinaculum.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.orthoinfo.org/bodypart/hand-wrist/carpal-tunnel-syndrome/"
+      ]
+    },
+    {
+      "id": "q-thumb-comparison-1",
+      "region": "hand",
+      "kind": "clinical",
+      "prompt": "Which muscle is associated with thumb opposition?",
+      "cardId": "opponens",
+      "options": [
+        "Opponens pollicis",
+        "Adductor pollicis",
+        "Extensor digitorum",
+        "Triceps brachii"
+      ],
+      "answer": "Opponens pollicis",
+      "explanation": "Opponens pollicis supports opposition.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+      ]
+    },
+    {
+      "id": "q-thumb-comparison-2",
+      "region": "hand",
+      "kind": "clinical",
+      "prompt": "Which nerve supplies adductor pollicis?",
+      "cardId": "adductor",
+      "options": [
+        "Deep branch of ulnar nerve",
+        "Recurrent branch of median nerve",
+        "Axillary nerve",
+        "Musculocutaneous nerve"
+      ],
+      "answer": "Deep branch of ulnar nerve",
+      "explanation": "Adductor pollicis receives deep ulnar branch supply.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Apply regional anatomy to a clinical teaching scenario."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "shoulder-weakness",
+      "title": "Shoulder weakness after injury",
+      "region": "shoulder",
+      "presentation": "After shoulder trauma, a student is asked to explain reduced deltoid function. These prompts test anatomical relationships, not diagnosis.",
+      "questionIds": [
+        "q-shoulder-weakness-1",
+        "q-shoulder-weakness-2"
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain anatomical relationships in shoulder weakness after injury."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK537056/",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK493212/"
+      ]
+    },
+    {
+      "id": "cuff-movement",
+      "title": "Explaining rotator cuff movement",
+      "region": "shoulder",
+      "presentation": "A tutor asks you to connect a movement deficit with a rotator cuff muscle.",
+      "questionIds": [
+        "q-cuff-movement-1",
+        "q-cuff-movement-2"
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain anatomical relationships in explaining rotator cuff movement."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK536933/",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK493212/"
+      ]
+    },
+    {
+      "id": "elbow-flexion",
+      "title": "Weak elbow flexion",
+      "region": "arm",
+      "presentation": "During an anatomy discussion, a student compares the motor supply of anterior arm muscles.",
+      "questionIds": [
+        "q-elbow-flexion-1",
+        "q-elbow-flexion-2"
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain anatomical relationships in weak elbow flexion."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK534199/?report=printable"
+      ]
+    },
+    {
+      "id": "posterior-arm",
+      "title": "Posterior arm and nerve function",
+      "region": "arm",
+      "presentation": "A teaching case asks you to distinguish the nerve supply of posterior arm muscles from anterior arm muscles.",
+      "questionIds": [
+        "q-posterior-arm-1",
+        "q-posterior-arm-2"
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain anatomical relationships in posterior arm and nerve function."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/",
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+      ]
+    },
+    {
+      "id": "pinch-movement",
+      "title": "The precision pinch discussion",
+      "region": "forearm",
+      "presentation": "A tutor asks you to explain the anatomical basis of thumb-tip flexion during a precision pinch.",
+      "questionIds": [
+        "q-pinch-movement-1",
+        "q-pinch-movement-2"
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain anatomical relationships in the precision pinch discussion."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "forearm-supply",
+      "title": "Two wrist flexors, different nerves",
+      "region": "forearm",
+      "presentation": "Compare the nerve supply of the radial and ulnar wrist flexors.",
+      "questionIds": [
+        "q-forearm-supply-1",
+        "q-forearm-supply-2"
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain anatomical relationships in two wrist flexors, different nerves."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "carpal-tunnel",
+      "title": "Anatomy of carpal tunnel compression",
+      "region": "hand",
+      "presentation": "A wrist-compression teaching scenario asks you to identify the tunnel roof and the nerve within it.",
+      "questionIds": [
+        "q-carpal-tunnel-1",
+        "q-carpal-tunnel-2"
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain anatomical relationships in anatomy of carpal tunnel compression."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+        "https://www.orthoinfo.org/bodypart/hand-wrist/carpal-tunnel-syndrome/"
+      ]
+    },
+    {
+      "id": "thumb-comparison",
+      "title": "Thumb opposition versus adduction",
+      "region": "hand",
+      "presentation": "A student distinguishes two thumb actions and their motor pathways.",
+      "questionIds": [
+        "q-thumb-comparison-1",
+        "q-thumb-comparison-2"
+      ],
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Explain anatomical relationships in thumb opposition versus adduction."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/"
+      ]
+    }
+  ],
+  "nerves": [
+    {
+      "id": "axillary",
+      "title": "Axillary nerve",
+      "cardIds": [
+        "deltoid",
+        "teres-minor"
+      ],
+      "description": "Highlighted muscles receive axillary nerve supply.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Relate nerve supply to selected muscles."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK493212/"
+      ]
+    },
+    {
+      "id": "musculocutaneous",
+      "title": "Musculocutaneous nerve",
+      "cardIds": [
+        "biceps",
+        "brachialis",
+        "coracobrachialis"
+      ],
+      "description": "These anterior arm muscles receive musculocutaneous supply; brachialis may also receive radial contribution.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Relate nerve supply to selected muscles."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK534199/?report=printable"
+      ]
+    },
+    {
+      "id": "radial",
+      "title": "Radial nerve",
+      "cardIds": [
+        "triceps",
+        "brachioradialis",
+        "ecrl",
+        "ecrb",
+        "supinator",
+        "ed",
+        "ecu",
+        "epl",
+        "apl"
+      ],
+      "description": "Selected muscles receive supply from the radial nerve or its branches. This is a partial motor map, not a nerve-course diagram.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Relate nerve supply to selected muscles."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+      ]
+    },
+    {
+      "id": "median",
+      "title": "Median nerve",
+      "cardIds": [
+        "pronator-teres",
+        "pronator-quadratus",
+        "fcr",
+        "palmaris",
+        "fds",
+        "fpl",
+        "apb",
+        "opponens"
+      ],
+      "description": "Selected muscles receive supply from the median nerve or its branches. The mixed supply of profundus is described separately.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Relate nerve supply to selected muscles."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK532942/"
+      ]
+    },
+    {
+      "id": "ulnar",
+      "title": "Ulnar nerve",
+      "cardIds": [
+        "fcu",
+        "adductor"
+      ],
+      "description": "Selected examples of ulnar motor supply. This map does not include every muscle or sensory territory.",
+      "version": "0.1.0",
+      "status": "draft",
+      "reviewer": null,
+      "reviewedAt": null,
+      "objectives": [
+        "Relate nerve supply to selected muscles."
+      ],
+      "references": [
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK499892/"
+      ]
+    }
+  ]
+}

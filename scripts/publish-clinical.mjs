@@ -1,0 +1,12 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {approved} from '../app/study/learning.ts';
+import {validateScenarios} from '../app/clinical/validate.ts';
+const read=async p=>JSON.parse(await readFile(new URL(p,import.meta.url)));
+const inventory=await read('../app/clinical/inventory.json'),drafts=await read('../app/clinical/drafts.json'),assets=await read('../app/clinical/assets.json'),specialties=await read('../app/clinical/specialties.json'),atlas=await read('../public/models/atlas.json');
+const reviewed=new Set(inventory.filter(i=>i.status==='approved'&&i.reviewer?.trim()&&Number.isFinite(Date.parse(i.reviewedAt))).map(i=>i.specialtyId));
+const items=drafts.filter(s=>approved(s)&&s.specialtyIds.every(id=>reviewed.has(id)));
+if(!items.length)throw new Error('No scenarios with genuine inventory and item-level medical approval are ready. Publication was not changed.');
+const errors=validateScenarios(items,assets,specialties,new Set(atlas.concepts.map(c=>c.id)),true);
+if(errors.length)throw new Error(errors.join('\n'));
+await writeFile(new URL('../app/clinical/published.json',import.meta.url),JSON.stringify(items,null,2)+'\n');
+console.log(`Published ${items.length} approved scenarios. Run validate:launch separately before declaring all-specialty launch readiness.`);

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "schematic-bone",
+    "kind": "diagram",
+    "url": "embedded:StageDiagram",
+    "licence": "Original project illustration; MIT",
+    "conceptIds": ["FMA23130"],
+    "version": "0.1.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Explain the relationship between the reference anatomy and the scenario.",
+      "Recognize that stages are illustrative and outcomes vary."
+    ],
+    "references": [
+      "https://www.orthoinfo.org/diseases--conditions/broken-bones/fractures-broken-bones/"
+    ]
+  },
+  {
+    "id": "schematic-tooth",
+    "kind": "diagram",
+    "url": "embedded:StageDiagram",
+    "licence": "Original project illustration; MIT",
+    "conceptIds": ["FMA55704"],
+    "version": "0.1.0",
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null,
+    "objectives": [
+      "Explain the relationship between the reference anatomy and the scenario.",
+      "Recognize that stages are illustrative and outcomes vary."
+    ],
+    "references": ["https://www.nidcr.nih.gov/health-info/tooth-decay"]
+  }
+]
