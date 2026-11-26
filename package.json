@@ -63,5 +63,19 @@
     "wrangler": "4.92.0"
   },
   "type": "module",
+  "description": "Interactive 3D human anatomy explorer with a clinical study workspace.",
+  "homepage": "https://thehumanbody.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theShipar/humanbody.git"
+  },
+  "author": "Abtahi Shipar (https://github.com/theShipar)",
+  "keywords": [
+    "anatomy",
+    "threejs",
+    "medical-education",
+    "react",
+    "vite"
+  ],
   "license": "MIT"
 }
