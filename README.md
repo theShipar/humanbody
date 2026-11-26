@@ -4,6 +4,8 @@ An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Ta
 
 **[Explore the live demo](https://thehumanbody.vercel.app)**
 
+[![humanbody — interactive 3D anatomy explorer](docs/live-preview.png)](https://thehumanbody.vercel.app)
+
 ## Clinical study pilot
 
 The local app now includes Learn, Practice, and My Review alongside the original explorer. The upper-limb library contains 40 provisional cards, eight guided lessons, eight cases, and 60 questions. Use **Reviewer preview** in development to inspect drafts. No medical sign-off has been supplied: production includes approved content only and currently holds the curriculum behind the review gate.
