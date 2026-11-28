@@ -11,6 +11,8 @@ interface Props {
   atlas: Atlas;
   state: SceneState;
   onSelect: (id: string) => void;
+  onFocus?: (id: string) => void;
+  torchCursor?: { x: number; y: number; active: boolean };
   onZoom?: (percent: number) => void;
   onCameraInteraction?: () => void;
   onProgress: (n: number) => void;
@@ -24,13 +26,18 @@ export default function AnatomyScene({
   onError,
   onCameraInteraction,
   onZoom,
+  onFocus,
+  torchCursor,
 }: Props) {
   const host = useRef<HTMLDivElement>(null),
     latest = useRef(state),
     select = useRef(onSelect),
     progress = useRef(onProgress),
     error = useRef(onError);
-  const zoomCallback=useRef(onZoom); zoomCallback.current=onZoom;
+  const focusCallback = useRef(onFocus);
+  focusCallback.current = onFocus;
+  const zoomCallback = useRef(onZoom);
+  zoomCallback.current = onZoom;
   const cameraInteraction = useRef(onCameraInteraction);
   cameraInteraction.current = onCameraInteraction;
   latest.current = state;
@@ -82,10 +89,14 @@ export default function AnatomyScene({
     controls.minDistance = 0.04;
     controls.maxDistance = 30;
     controls.maxPolarAngle = Math.PI * 0.98;
-    let fitDistance=4, lastZoom=100;
+    let fitDistance = 4,
+      lastZoom = 100;
     controls.addEventListener("change", () => {
-      const percent=Math.round(100*fitDistance/camera.position.distanceTo(controls.target));
-      if(percent!==lastZoom){lastZoom=percent;zoomCallback.current?.(percent);}
+      const percent = Math.round((100 * fitDistance) / camera.position.distanceTo(controls.target));
+      if (percent !== lastZoom) {
+        lastZoom = percent;
+        zoomCallback.current?.(percent);
+      }
       dirty = true;
     });
     world.add(new T.HemisphereLight(0xe9f0df, 0x52635e, 1.2));
@@ -124,6 +135,8 @@ export default function AnatomyScene({
       partFlags: { value: flagTexture },
       stateWidth: { value: width },
       xray: { value: 0 },
+      torchMode: { value: 0 },
+      torchCircle: { value: new T.Vector3() },
     };
     const vertexHeader =
       "attribute float partIndex; uniform sampler2D partState; uniform sampler2D partFlags; uniform float stateWidth; varying vec4 stateFlags; varying float enabled;\n";
@@ -137,22 +150,27 @@ export default function AnatomyScene({
         side: T.DoubleSide,
       });
       m.onBeforeCompile = (shader) => {
-        Object.assign(shader.uniforms, uniforms);
+        Object.assign(shader.uniforms, uniforms, {
+          torchSystem: {
+            value:
+              system === "skeletal" ? 1 : system === "venous" ? 2 : system === "arterial" ? 3 : 0,
+          },
+        });
         shader.vertexShader = vertexHeader + shader.vertexShader;
         shader.vertexShader = shader.vertexShader.replace(
           "#include <begin_vertex>",
           `#include <begin_vertex>\n${vertexState} transformed+=part.xyz;`,
         );
         shader.fragmentShader =
-          "varying vec4 stateFlags; varying float enabled; uniform float xray;\n" +
+          "varying vec4 stateFlags; varying float enabled; uniform float xray; uniform float torchMode; uniform float torchSystem; uniform vec3 torchCircle;\n" +
           shader.fragmentShader;
         shader.fragmentShader = shader.fragmentShader.replace(
           "#include <clipping_planes_fragment>",
-          `#include <clipping_planes_fragment>\nif(enabled<0.5 || stateFlags.g<0.005)discard;\nif(xray<0.5){float screenDoor=fract(dot(floor(gl_FragCoord.xy),vec2(0.75487766,0.56984029)));if(screenDoor>stateFlags.g)discard;}`,
+          `#include <clipping_planes_fragment>\nbool inTorch= torchMode>0.5 && distance(gl_FragCoord.xy,torchCircle.xy)<torchCircle.z; if(enabled<0.5 || stateFlags.g<0.005)discard; if(inTorch){if(abs(torchSystem-(torchMode>3.5?1.0:torchMode))>0.1)discard;}else if(stateFlags.a<0.5)discard;\nif(xray<0.5){float screenDoor=fract(dot(floor(gl_FragCoord.xy),vec2(0.75487766,0.56984029)));if(screenDoor>stateFlags.g)discard;}`,
         );
         shader.fragmentShader = shader.fragmentShader.replace(
           "#include <color_fragment>",
-          "#include <color_fragment>\nvec3 highlight=mix(vec3(0.18,1.0,0.035),vec3(1.0,0.43,0.27),stateFlags.b);diffuseColor.rgb=mix(diffuseColor.rgb,highlight,stateFlags.r*0.96);if(xray>0.5){diffuseColor.rgb=mix(vec3(0.58,0.75,0.72),highlight,stateFlags.r);diffuseColor.a=mix(stateFlags.g*0.085,0.85,stateFlags.r);}",
+          "#include <color_fragment>\nvec3 highlight=mix(vec3(0.18,1.0,0.035),vec3(1.0,0.43,0.27),stateFlags.b);diffuseColor.rgb=mix(diffuseColor.rgb,highlight,stateFlags.r*0.96);if(xray>0.5){diffuseColor.rgb=mix(vec3(0.58,0.75,0.72),highlight,stateFlags.r);diffuseColor.a=mix(stateFlags.g*0.085,0.85,stateFlags.r);} if(inTorch && torchMode>3.5){diffuseColor.rgb=vec3(0.035,0.42,0.75);diffuseColor.a=0.24;}",
         );
       };
       const compile = m.onBeforeCompile;
@@ -313,6 +331,20 @@ export default function AnatomyScene({
         };
       dirty = true;
     }
+    function wheelZoom(event: WheelEvent) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      const delta =
+        event.deltaY * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? el!.clientHeight : 1);
+      const offset = (flight?.to ?? camera.position).clone().sub(controls.target);
+      const distance = T.MathUtils.clamp(
+        offset.length() * Math.exp(T.MathUtils.clamp(delta * 0.0015, -1, 1)),
+        controls.minDistance,
+        controls.maxDistance,
+      );
+      flyTo(controls.target.clone(), controls.target.clone().add(offset.setLength(distance)));
+    }
+    renderer.domElement.addEventListener("wheel", wheelZoom, { capture: true, passive: false });
     function frameSelection(immediate = false) {
       const s = latest.current;
       const chosen = s.focusParts?.length
@@ -354,7 +386,7 @@ export default function AnatomyScene({
             (2 * Math.tan(T.MathUtils.degToRad(camera.fov / 2))) +
             size.z * 0.35,
         ) * 1.07;
-      fitDistance=distance;
+      fitDistance = distance;
       const direction =
         s.view === "front"
           ? new T.Vector3(0, 0, 1)
@@ -396,7 +428,12 @@ export default function AnatomyScene({
     };
     const move = (e: PointerEvent) => {
       tap.move(e.pointerId, e.clientX, e.clientY);
-      if (latest.current.labelsVisible === false || e.buttons || e.pointerType === "touch") {
+      if (
+        latest.current.torch ||
+        latest.current.labelsVisible === false ||
+        e.buttons ||
+        e.pointerType === "touch"
+      ) {
         hover.hidden = true;
         return;
       }
@@ -411,16 +448,34 @@ export default function AnatomyScene({
         hover.style.top = `${Math.max(8, e.clientY - r.top - 35)}px`;
       }
     };
+    let lastTap = { id: "", time: 0, x: 0, y: 0 };
     const up = (e: PointerEvent) => {
+      if (latest.current.torch) return;
       if (!tap.up(e.pointerId, e.clientX, e.clientY) || !ready) return;
       const i = pickAt(e.clientX, e.clientY);
-      if (i >= 0) select.current(atlas.parts[i].id);
+      if (i >= 0) {
+        const id = atlas.parts[i].id,
+          now = performance.now();
+        if (
+          focusCallback.current &&
+          lastTap.id === id &&
+          now - lastTap.time < 340 &&
+          Math.hypot(lastTap.x - e.clientX, lastTap.y - e.clientY) < 24
+        ) {
+          focusCallback.current(id);
+          lastTap.time = 0;
+        } else {
+          select.current(id);
+          lastTap = { id, time: now, x: e.clientX, y: e.clientY };
+        }
+      }
     };
     const cancel = (e: PointerEvent) => tap.cancel(e.pointerId);
     const keydown = (e: KeyboardEvent) => {
       if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "+", "-", "0"].includes(e.key))
         return;
       e.preventDefault();
+      e.stopPropagation();
       flight = null;
       const v = camera.position.clone().sub(controls.target);
       if (e.key === "+" || e.key === "-") v.multiplyScalar(e.key === "+" ? 0.85 : 1.18);
@@ -552,6 +607,7 @@ export default function AnatomyScene({
     const observer = new ResizeObserver(resize);
     observer.observe(el);
     let lastTime = performance.now();
+    let cursorKey = "";
     let drawCount = 0,
       drawMs = 0;
     const animate = () => {
@@ -574,13 +630,21 @@ export default function AnatomyScene({
           const offset = cell
             ? new T.Vector3(cell.x - c.x, cell.y + 0.85 - c.y, -c.z).multiplyScalar(amount)
             : new T.Vector3();
-          transforms.set([offset.x, offset.y, offset.z, visiblePart(p, s) ? 1 : 0], i * 4);
+          const torchPart =
+            !!s.torch &&
+            p.system === (s.torch.mode === "xray" ? "skeletal" : s.torch.mode) &&
+            (!s.regionParts || s.regionParts.includes(p.id)) &&
+            !s.hidden?.includes(p.id);
+          transforms.set(
+            [offset.x, offset.y, offset.z, visiblePart(p, s) || torchPart ? 1 : 0],
+            i * 4,
+          );
           flags.set(
             [
               s.selected.includes(p.id) ? 255 : 0,
-              Math.round(partOpacity(p, s) * 255),
+              Math.round((torchPart ? 1 : partOpacity(p, s)) * 255),
               clinical.has(p.id) ? 255 : 0,
-              255,
+              visiblePart(p, s) ? 255 : 0,
             ],
             i * 4,
           );
@@ -595,9 +659,15 @@ export default function AnatomyScene({
         flagTexture.needsUpdate = true;
         const xray = s.renderMode === "xray";
         uniforms.xray.value = xray ? 1 : 0;
-        for (const m of mats.values()) {
-          if (m.transparent !== xray) {
-            m.transparent = xray;
+        uniforms.torchMode.value = s.torch
+          ? { skeletal: 1, venous: 2, arterial: 3, xray: 4 }[s.torch.mode]
+          : 0;
+        for (const [system, m] of mats) {
+          const translucent = xray || (s.torch?.mode === "xray" && system === "skeletal");
+          m.depthWrite = !xray;
+          m.blending = xray ? T.AdditiveBlending : T.NormalBlending;
+          if (m.transparent !== translucent) {
+            m.transparent = translucent;
             m.depthWrite = !xray;
             m.blending = xray ? T.AdditiveBlending : T.NormalBlending;
             m.needsUpdate = true;
@@ -624,28 +694,49 @@ export default function AnatomyScene({
             controls.target.clone(),
             controls.target
               .clone()
-              .add(camera.position.clone().sub(controls.target).multiplyScalar(factor)),
+              .add(
+                (flight?.to ?? camera.position).clone().sub(controls.target).multiplyScalar(factor),
+              ),
           );
         }
       }
       if (moving) frameSelection(true);
       if (flight) {
         const t = Math.min(1, (now - flight.start) / 350),
-          ease = 1 - Math.pow(1 - t, 3);
+          ease = t * t * (3 - 2 * t);
         camera.position.lerpVectors(flight.from, flight.to, ease);
         controls.target.lerpVectors(flight.fromTarget, flight.toTarget, ease);
         if (t === 1) flight = null;
         dirty = true;
       }
       controls.enableRotate = s.interaction !== "pan";
+      controls.enablePan = true;
       controls.mouseButtons.LEFT = s.interaction === "pan" ? T.MOUSE.PAN : T.MOUSE.ROTATE;
       controls.touches.ONE = s.interaction === "pan" ? T.TOUCH.PAN : T.TOUCH.ROTATE;
       controls.autoRotate = !!s.rotate && !reduce.matches;
       controls.autoRotateSpeed = 0.6;
       controls.update();
       if (controls.autoRotate) dirty = true;
+      if (s.torch && torchCursor) {
+        const next = `${torchCursor.x}:${torchCursor.y}:${torchCursor.active}:${s.torch.radius}`;
+        if (next !== cursorKey) {
+          cursorKey = next;
+          dirty = true;
+        }
+        uniforms.torchMode.value = torchCursor.active
+          ? { skeletal: 1, venous: 2, arterial: 3, xray: 4 }[s.torch.mode]
+          : 0;
+      }
       if (dirty) {
         const start = performance.now();
+        if (s.torch) {
+          const ratio = renderer.getPixelRatio();
+          uniforms.torchCircle.value.set(
+            (torchCursor?.x ?? s.torch.x) * el.clientWidth * ratio,
+            (1 - (torchCursor?.y ?? s.torch.y)) * el.clientHeight * ratio,
+            Math.min(s.torch.radius ?? 110, el.clientWidth * 0.35) * ratio,
+          );
+        }
         renderer.render(world, camera);
         positionLabels();
         drawMs += performance.now() - start;
@@ -676,6 +767,7 @@ export default function AnatomyScene({
       flagTexture.dispose();
       renderer.dispose();
       renderer.domElement.remove();
+      renderer.domElement.removeEventListener("wheel", wheelZoom, true);
       hover.remove();
       labelLayer.remove();
     };

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74 60">
+  <defs>
+    <linearGradient id="light" x2="0" y2="1">
+      <stop stop-color="#007aff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#007aff" stop-opacity=".46"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <path d="M8 8h58L50.63 52h-26.1Z" fill="url(#light)" filter="url(#soft)"/>
+</svg>

@@ -8,18 +8,19 @@ An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Ta
 
 ## Clinical study pilot
 
-The local app now includes Learn, Practice, and My Review alongside the original explorer. The upper-limb library contains 40 provisional cards, eight guided lessons, eight cases, and 60 questions. Use **Reviewer preview** in development to inspect drafts. No medical sign-off has been supplied: production includes approved content only and currently holds the curriculum behind the review gate.
+The repository also contains a clinical study workspace (Learn, Practice, and My Review) plus a content-review pipeline. That workspace is not currently exposed in the public explorer. The upper-limb library holds 40 provisional cards, eight guided lessons, eight cases, and 60 questions. Use **Reviewer preview** in development to inspect drafts. No medical sign-off has been supplied: production includes approved content only and currently holds the curriculum behind the review gate.
 
 See [the pilot guide](docs/CLINICAL_PILOT.md) for progress backups, validation, publication, and the remaining review milestones, and [the proposed inventory](docs/CONTENT_INVENTORY.md) for exact coverage.
 
 ## Explore
 
-- Orbit, zoom, and select structures directly on the body.
-- Toggle individual systems or use skeleton and organ presets.
-- Move from assembled anatomy to a spaced inventory of every visible piece.
-- Search anatomical names and source identifiers.
-- Isolate a selected structure and read its details.
-- Use compact controls and detail panels on mobile.
+- Drag to orbit, scroll or pinch to zoom, and click a structure to highlight it.
+- Double-click or double-tap a structure to frame it.
+- Browse six body regions or fifteen systems with live 3D previews.
+- Switch between anatomy, skeleton, wireframe, and X-ray illustration.
+- Shine a bone, X-ray, artery, or vein torch across the body to reveal structures in place.
+- Explode the model into every visible piece, or press `?` for the full shortcut guide.
+- Use compact controls, a slide-out browser, and a mobile dock.
 
 ## Run locally
 

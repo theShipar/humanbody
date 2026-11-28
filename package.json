@@ -7,13 +7,14 @@
   },
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 3016",
-    "build": "npm run validate:study && npm run test:clinical && vite build",
+    "build": "npm run validate:study && npm run test:clinical && npm run test:viewer && vite build",
     "build:vercel": "npm run build",
     "check": "tsc --noEmit",
     "test:study": "node --experimental-strip-types --experimental-specifier-resolution=node scripts/test-study.mjs",
     "validate:study": "node --experimental-strip-types scripts/validate-study.mjs",
     "content:publish": "node --experimental-strip-types scripts/validate-study.mjs --publish",
     "test:clinical": "node --experimental-strip-types scripts/test-clinical.mjs",
+    "test:viewer": "node scripts/test-viewer-catalogue.mjs",
     "validate:launch": "node --experimental-strip-types scripts/test-clinical.mjs --release",
     "clinical:publish": "node --experimental-strip-types scripts/publish-clinical.mjs",
     "test:workspace": "node --experimental-strip-types scripts/test-workspace.mjs"
