@@ -85,16 +85,20 @@ export default function AnatomyScene({
     camera.position.set(0.2, 0.9, 4);
     controls.target.set(0, 0.9, 0);
     controls.enableDamping = true;
-    controls.dampingFactor = 0.1;
+    controls.zoomSpeed = 1.3;
+    controls.dampingFactor = 0.22;
     controls.minDistance = 0.04;
     controls.maxDistance = 30;
     controls.maxPolarAngle = Math.PI * 0.98;
     let fitDistance = 4,
-      lastZoom = 100;
+      lastZoom = 100,
+      lastZoomAt = 0;
     controls.addEventListener("change", () => {
       const percent = Math.round((100 * fitDistance) / camera.position.distanceTo(controls.target));
-      if (percent !== lastZoom) {
+      const now = performance.now();
+      if (percent !== lastZoom && now - lastZoomAt > 70) {
         lastZoom = percent;
+        lastZoomAt = now;
         zoomCallback.current?.(percent);
       }
       dirty = true;
@@ -305,17 +309,21 @@ export default function AnatomyScene({
       point = new T.Vector3();
     let flight: {
       start: number;
+      duration: number;
       from: T.Vector3;
       to: T.Vector3;
       fromTarget: T.Vector3;
       toTarget: T.Vector3;
     } | null = null;
+    let zoomDistance = 0;
     controls.addEventListener("start", () => {
       pendingFrame = 0;
       cameraInteraction.current?.();
       flight = null;
+      zoomDistance = 0;
     });
-    function flyTo(target: T.Vector3, position: T.Vector3, immediate = false) {
+    function flyTo(target: T.Vector3, position: T.Vector3, immediate = false, duration = 18) {
+      zoomDistance = 0;
       if (immediate || reduce.matches) {
         controls.target.copy(target);
         camera.position.copy(position);
@@ -324,6 +332,7 @@ export default function AnatomyScene({
       } else
         flight = {
           start: performance.now(),
+          duration,
           from: camera.position.clone(),
           to: position,
           fromTarget: controls.target.clone(),
@@ -331,18 +340,19 @@ export default function AnatomyScene({
         };
       dirty = true;
     }
+    /** Aim the camera distance; the frame loop chases it so input applies on the next frame. */
+    function zoomTo(distance: number) {
+      flight = null;
+      zoomDistance = T.MathUtils.clamp(distance, controls.minDistance, controls.maxDistance);
+      dirty = true;
+    }
     function wheelZoom(event: WheelEvent) {
       event.preventDefault();
       event.stopImmediatePropagation();
       const delta =
         event.deltaY * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? el!.clientHeight : 1);
-      const offset = (flight?.to ?? camera.position).clone().sub(controls.target);
-      const distance = T.MathUtils.clamp(
-        offset.length() * Math.exp(T.MathUtils.clamp(delta * 0.0015, -1, 1)),
-        controls.minDistance,
-        controls.maxDistance,
-      );
-      flyTo(controls.target.clone(), controls.target.clone().add(offset.setLength(distance)));
+      const distance = camera.position.distanceTo(controls.target);
+      zoomTo(distance * Math.exp(T.MathUtils.clamp(delta * 0.0078, -1, 1)));
     }
     renderer.domElement.addEventListener("wheel", wheelZoom, { capture: true, passive: false });
     function frameSelection(immediate = false) {
@@ -423,6 +433,7 @@ export default function AnatomyScene({
     let hoverAt = 0;
     const down = (e: PointerEvent) => {
       flight = null;
+      zoomDistance = 0;
       hover.hidden = true;
       tap.down(e.pointerId, e.clientX, e.clientY, e.pointerType === "touch" ? 12 : 5);
     };
@@ -477,6 +488,7 @@ export default function AnatomyScene({
       e.preventDefault();
       e.stopPropagation();
       flight = null;
+      zoomDistance = 0;
       const v = camera.position.clone().sub(controls.target);
       if (e.key === "+" || e.key === "-") v.multiplyScalar(e.key === "+" ? 0.85 : 1.18);
       else if (e.key === "0") {
@@ -688,25 +700,37 @@ export default function AnatomyScene({
       if (s.cameraCommand && s.cameraCommand.id !== lastCommand) {
         lastCommand = s.cameraCommand.id;
         if (s.cameraCommand.type === "frame") frameSelection();
-        else {
-          const factor = s.cameraCommand.type === "zoom-in" ? 0.8 : 1.25;
-          flyTo(
-            controls.target.clone(),
-            controls.target
-              .clone()
-              .add(
-                (flight?.to ?? camera.position).clone().sub(controls.target).multiplyScalar(factor),
-              ),
+        else
+          zoomTo(
+            camera.position.distanceTo(controls.target) *
+              (s.cameraCommand.type === "zoom-in" ? 1 / 2.46 : 2.46),
           );
-        }
       }
       if (moving) frameSelection(true);
       if (flight) {
-        const t = Math.min(1, (now - flight.start) / 350),
+        const t = Math.min(1, (now - flight.start) / flight.duration),
           ease = t * t * (3 - 2 * t);
         camera.position.lerpVectors(flight.from, flight.to, ease);
         controls.target.lerpVectors(flight.fromTarget, flight.toTarget, ease);
         if (t === 1) flight = null;
+        dirty = true;
+      }
+      if (zoomDistance > 0 && !flight) {
+        const offset = camera.position.clone().sub(controls.target),
+          current = offset.length(),
+          next = T.MathUtils.damp(current, zoomDistance, 504, dt),
+          settled = Math.abs(next - zoomDistance) < Math.max(0.0008, zoomDistance * 0.004);
+        camera.position.copy(controls.target).add(offset.setLength(settled ? zoomDistance : next));
+        if (settled) {
+          zoomDistance = 0;
+          const percent = Math.round(
+            (100 * fitDistance) / camera.position.distanceTo(controls.target),
+          );
+          if (percent !== lastZoom) {
+            lastZoom = percent;
+            zoomCallback.current?.(percent);
+          }
+        }
         dirty = true;
       }
       controls.enableRotate = s.interaction !== "pan";
